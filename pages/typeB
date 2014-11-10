@@ -32,11 +32,8 @@ font-weight:bold;
 font-size:14px;
 }
 
-table{
-    border:none;
-       width:auto;
-}
-.style-A-B td, .typography{
+
+.style-A-B, .typography{
     width:288px;
     height:378px;
     text-align:center;
@@ -45,7 +42,7 @@ table{
 
 }
 
-.style-C td{
+.style-C{
     width:908px;
     height:auto;
     
@@ -54,13 +51,6 @@ table{
     display:inline-block;
 
 }
-.style-C tr{
-      background:white !important;  
-}
-.style-C img{
-    padding:0;
-}
-
 
 .img-D{
     width:589px;
