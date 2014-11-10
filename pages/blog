@@ -40,7 +40,7 @@ table{
     padding:11px;
     vertical-align:top;
 }
-.style-A-B, .style-B{
+.style-A-B{
     width:auto;
 
 }
