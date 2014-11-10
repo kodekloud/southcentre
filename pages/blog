@@ -62,8 +62,8 @@ table{
     padding:0;
 }
 
-.style-D{
-    
+.style-D td{
+    width:598px;
 }
 </style>
 
