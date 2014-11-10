@@ -39,6 +39,7 @@ font-size:14px;
     text-align:center;
     padding:11px;
     vertical-align:top;
+    float:left;
 
 }
 
