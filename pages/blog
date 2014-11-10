@@ -46,7 +46,7 @@ table{
 }
 .style-C td{
     width:908px;
-
+    height:auto;
     
 }
 </style>
