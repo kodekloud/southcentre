@@ -1,0 +1,124 @@
+
+  
+<style>
+
+.title-gg{
+    font-size: 26px; 
+    font-family: ChronicleDisplay-Italic;
+    
+}
+.content-gg{
+    font-family:Whitney-light;
+    font-size:18px;
+    margin-bottom:0px;
+    width:288px;
+    
+}
+.type-gg{margin:0 auto;}
+.description-gg{
+     font-family: ChronicleDeck-Roman;
+    font-size: 14px;
+    margin-bottom:0px;
+    text-align:left;
+      line-height:22px;
+      margin-right:15px;
+}
+.description-image{
+    margin-top:22px;
+}
+.store-gg{
+font-family: ChronicleDisplay-Italic;
+font-weight:bold;
+font-size:14px;
+}
+
+
+.style-A div, .typography{
+    width:288px;
+  
+    text-align:center;
+    padding:11px;
+    vertical-align:top;
+    float:left;
+
+}
+
+.style-C{
+    width:908px;
+    height:auto;
+    
+} 
+.style-C .description-gg{
+    display:inline-block;
+
+}
+
+.img-D{
+    width:589px;
+}
+</style>
+<!-- blogs CONTENT BLOCK START-->    
+<section id="editor" class="froala-element">
+  <a href="#" style="font-size:20px;display:none" id="content_block_5460facd6e6f6443f2000000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_5460facd6e6f6443f2000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
+  <div id='edit_5460facd6e6f6443f2000000'>
+	  <%=content_block_5460facd6e6f6443f2000000%>
+  </div>
+  <script>
+      $(function(){
+		if (typeof $('#edit_5460facd6e6f6443f2000000').editable != 'undefined') {
+			$('#content_block_5460facd6e6f6443f2000000').show();
+	        $('#edit_5460facd6e6f6443f2000000').editable({
+				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
+			    		beautifyCode:false,
+				inlineMode: false,
+                paragraphy: true,
+                alwaysBlank: true,
+                toolbarFixed: true,
+                imageMove: true,
+                saveURL: '../save_content_block',
+                saveRequestType: 'POST',
+	            saveParams: {name:'blogs', id: '5460facd6e6f6443f2000000',web_page_id: '5460e9166e6f64206d010000',authenticity_token: '<%=form_authenticity_token%>'},
+	            autosave: false,
+				minHeight: 200,
+				imageUploadToS3: {
+                    bucket: 'kodekloud',
+                    region: 's3',
+                    keyStart: 'site/545bdd066e6f645bae000000/018ca0be09d21e497bd73ffcc05e19e3/${filename}',
+					callback: function (url, key) {
+                      $.ajax({
+                            url : "../add_upload_from_content_block",
+                            type: "POST",
+                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
+                            success: function(data, textStatus, jqXHR)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            },
+                            error: function (jqXHR, textStatus, errorThrown)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            }
+                        });
+                    },
+                    params: {
+					  utf8: '&#x2713;',
+                      acl: 'public-read', // ACL according to Amazon Documentation.
+                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
+                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOC0yNFQxNzo1MDowNS42NTlaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
+                      signature: 'klaGbwUteAbIOPsuZd8vk9DiLsc=', // Signature computed in the backend.
+                    }
+                }
+            
+	        })
+		}
+		$('#status_5460facd6e6f6443f2000000').hide();
+        
+        $('#content_block_5460facd6e6f6443f2000000').click(function(event){
+            event.preventDefault();
+            $('#edit_5460facd6e6f6443f2000000').editable("save");
+        });
+      });
+  </script>
+</section>    
+<!-- blogs CONTENT BLOCK END -->
