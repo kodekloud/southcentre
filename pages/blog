@@ -55,7 +55,7 @@ table{
 
 }
 .style-C tr{
-      background:white;  
+      background:white !important;  
 }
 .style-C img{
     padding:0;
