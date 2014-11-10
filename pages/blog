@@ -52,7 +52,10 @@ table{
 .style-C .description-gg{
     display:inline-block;
     line-height:22px;
-    background:white;
+
+}
+.style-C tr{
+      background:white;  
 }
 .style-C img{
     padding:0;
