@@ -44,7 +44,11 @@ table{
     width:auto;
 
 }
-
+.style-C img{
+    width:908px;
+    height:440px;
+    
+}
 </style>
 
 <!-- event page CONTENT BLOCK START-->    
