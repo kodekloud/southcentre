@@ -33,14 +33,14 @@ font-size:14px;
 table{
     border:none;
 }
-.style-A td{
+.style-A-B td{
     width:288px;
     height:378px;
     text-align:center;
     padding:11px;
     vertical-align:top;
 }
-.style-A, .style-B{
+.style-A-B, .style-B{
     width:auto;
 
 }
