@@ -34,6 +34,7 @@ font-size:14px;
 
 table{
     border:none;
+       width:auto;
 }
 .style-A-B td, .typography{
     width:288px;
@@ -43,10 +44,7 @@ table{
     vertical-align:top;
 
 }
-.style-A-B, .style-C, .style-D{
-    width:auto;
 
-}
 .style-C td{
     width:908px;
     height:auto;
