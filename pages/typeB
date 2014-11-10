@@ -33,7 +33,7 @@ font-size:14px;
 }
 
 
-.style-A, .typography{
+.style-A div, .typography{
     width:288px;
     height:378px;
     text-align:center;
