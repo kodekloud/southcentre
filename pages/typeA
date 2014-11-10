@@ -1,66 +1,30 @@
 
-<!-- blogs CONTENT BLOCK START-->    
-<section id="editor" >
-  <a href="#" style="font-size:20px;display:none" id="content_block_5460facd6e6f6443f2000000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_5460facd6e6f6443f2000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
-  <div id='edit_5460facd6e6f6443f2000000'>
-	  <%=content_block_5460facd6e6f6443f2000000%>
-  </div>
+  <!-- Include Font Awesome. -->
+  <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- Include Editor style. -->
+  <link href="../css/froala_editor.min.css" rel="stylesheet" type="text/css" />
+  <link href="../css/froala_style.min.css" rel="stylesheet" type="text/css" />
+
+
+<body>
+  <!-- Create a tag that we will use as the editable area.
+       You can use a div tag as well. -->
+  <form>
+    <textarea id="edit" name="content"></textarea>
+  </form>
+
+  <!-- Include jQuery. -->
+  <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+
+  <!-- Include JS files. -->
+  <script src="../js/froala_editor.min.js"></script>
+
+
+
+  <!-- Initialize the editor. -->
   <script>
-      $(function(){
-		if (typeof $('#edit_5460facd6e6f6443f2000000').editable != 'undefined') {
-			$('#content_block_5460facd6e6f6443f2000000').show();
-	        $('#edit_5460facd6e6f6443f2000000').editable({
-				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
-			    		beautifyCode:false,
-				inlineMode: false,
-                paragraphy: true,
-                alwaysBlank: true,
-                toolbarFixed: true,
-                imageMove: true,
-                saveURL: '../save_content_block',
-                saveRequestType: 'POST',
-	            saveParams: {name:'blogs', id: '5460facd6e6f6443f2000000',web_page_id: '5460e9166e6f64206d010000',authenticity_token: '<%=form_authenticity_token%>'},
-	            autosave: false,
-				minHeight: 200,
-				imageUploadToS3: {
-                    bucket: 'kodekloud',
-                    region: 's3',
-                    keyStart: 'site/545bdd066e6f645bae000000/018ca0be09d21e497bd73ffcc05e19e3/${filename}',
-					callback: function (url, key) {
-                      $.ajax({
-                            url : "../add_upload_from_content_block",
-                            type: "POST",
-                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
-                            success: function(data, textStatus, jqXHR)
-                            {
-                                console.log('saved image to uploads');
-                                console.log(textStatus);
-                            },
-                            error: function (jqXHR, textStatus, errorThrown)
-                            {
-                                console.log('saved image to uploads');
-                                console.log(textStatus);
-                            }
-                        });
-                    },
-                    params: {
-					  utf8: '&#x2713;',
-                      acl: 'public-read', // ACL according to Amazon Documentation.
-                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
-                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOC0yNFQxNzo1MDowNS42NTlaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
-                      signature: 'klaGbwUteAbIOPsuZd8vk9DiLsc=', // Signature computed in the backend.
-                    }
-                }
-            
-	        })
-		}
-		$('#status_5460facd6e6f6443f2000000').hide();
-        
-        $('#content_block_5460facd6e6f6443f2000000').click(function(event){
-            event.preventDefault();
-            $('#edit_5460facd6e6f6443f2000000').editable("save");
-        });
+      $(function() {
+          $('#edit').editable({inlineMode: false})
       });
   </script>
-</section>    
-<!-- blogs CONTENT BLOCK END -->
