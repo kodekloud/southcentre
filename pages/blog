@@ -49,6 +49,9 @@ table{
     height:auto;
     
 } 
+.style-C .description-gg{
+    display:inline-block;
+}
 .style-C img{
     padding:0;
 }
