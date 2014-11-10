@@ -62,8 +62,9 @@ table{
     padding:0;
 }
 
-.style-D td{
-    width:598px;
+
+.img-D{
+    width:589px;
 }
 </style>
 
