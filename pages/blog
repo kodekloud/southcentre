@@ -39,6 +39,7 @@ table{
     text-align:center;
     padding:11px;
     vertical-align:top;
+      line-height:22px;
 }
 .style-A-B, .style-C{
     width:auto;
