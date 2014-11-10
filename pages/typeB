@@ -1,0 +1,170 @@
+
+  
+<style>
+
+.title-gg{
+    font-size: 26px; 
+    font-family: ChronicleDisplay-Italic;
+    
+}
+.content-gg{
+    font-family:Whitney-light;
+    font-size:18px;
+    margin-bottom:0px;
+    width:288px;
+    
+}
+.type-gg{margin:0 auto;}
+.description-gg{
+     font-family: ChronicleDeck-Roman;
+    font-size: 14px;
+    margin-bottom:0px;
+    text-align:left;
+      line-height:22px;
+      margin-right:15px;
+}
+.description-image{
+    margin-top:22px;
+}
+.store-gg{
+font-family: ChronicleDisplay-Italic;
+font-weight:bold;
+font-size:14px;
+}
+
+table{
+    border:none;
+       width:auto;
+}
+.style-A-B td, .typography{
+    width:288px;
+    height:378px;
+    text-align:center;
+    padding:11px;
+    vertical-align:top;
+
+}
+
+.style-C td{
+    width:908px;
+    height:auto;
+    
+} 
+.style-C .description-gg{
+    display:inline-block;
+
+}
+.style-C tr{
+      background:white !important;  
+}
+.style-C img{
+    padding:0;
+}
+
+
+.img-D{
+    width:589px;
+}
+</style>
+
+<!-- event page CONTENT BLOCK START-->    
+<section id="editor" >
+  <a href="#" style="font-size:20px;display:none" id="content_block_5460c9e46e6f6403a1000000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_5460c9e46e6f6403a1000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
+  <div id='edit_5460c9e46e6f6403a1000000'>
+	  <%=content_block_5460c9e46e6f6403a1000000%>
+  </div>
+  <script>
+      $(function(){
+		if (typeof $('#edit_5460c9e46e6f6403a1000000').editable != 'undefined') {
+			$('#content_block_5460c9e46e6f6403a1000000').show();
+	        $('#edit_5460c9e46e6f6403a1000000').editable({
+				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html",'insertTypeA'],
+				
+				
+			
+				
+		customButtons: {
+   
+        // Insert HTML button with image button.
+        insertTypeA: {
+          title: 'Insert Type A',
+          icon: {
+            // Recommended size: 40 x 35.
+            type: 'txt',
+
+          
+            value: '"A"'
+          },
+          callback: function () {
+            // Insert HTML.
+            this.insertHTML("<table class=\"style-A\">      <tbody>            <tr>                  <td>                        <p class=\"title-gg\">Classic Beuty</p>                        <p class=\"content-gg\">She turns heads at the opera.She sips champagne at lunch. And shehas no problem watching Breakfast atTiffany’s on a Saturday afternoon. Shefaces every circumstance – from ballgame to banquet – with astonishingpoise and grace. Help her classic talego on with these timeless gifts.</p>                        <p class=\"gray_divider\">&nbsp;</p>                        <p class=\"description-gg\">Black, Camel & Tan Purse / <span class=\"store-gg\">Nine West</span></p>                        <p class=\"description-gg\">Perfume Set / <span class=\"store-gg\">Sephora</span></p></td>                  <td><img class=\"fr-fin\" src=\"https://kodekloud.s3.amazonaws.com/site%2F545bdd066e6f645bae000000%2F05fb5879b8e27156f690dc750683781d%2F288x378.jpg1415400564630-288x378.jpg\">                        <p class=\"description-gg description-image\">Fur Throw / <span class=\"store-gg\">Restoration Hardware</span></p></td>                  <td><img class=\"fr-fin\" src=\"https://kodekloud.s3.amazonaws.com/site%2F545bdd066e6f645bae000000%2F05fb5879b8e27156f690dc750683781d%2F288x378.jpg1415400554831-288x378.jpg\">                        <p class=\"description-gg description-image\">Glassware / <span class=\"store-gg\">Crate & Barrel</span></p></td></tr></tbody></table>");
+            // Save HTML in undo stack.
+            this.saveUndoStep();
+          },
+          refresh: function () { }
+        }
+      },
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					beautifyCode:true,
+				
+				inlineMode: false,
+                paragraphy: true,
+                alwaysBlank: true,
+                toolbarFixed: true,
+                imageMove: true,
+                saveURL: '../save_content_block',
+                saveRequestType: 'POST',
+	            saveParams: {name:'event page', id: '5460c9e46e6f6403a1000000',web_page_id: '5460c9d56e6f647e89000000',authenticity_token: '<%=form_authenticity_token%>'},
+	            autosave: false,
+				minHeight: 200,
+				imageUploadToS3: {
+                    bucket: 'kodekloud',
+                    region: 's3',
+                    keyStart: 'site/545bdd066e6f645bae000000/63c02f8653677a26ebbbe1cbad5e539f/${filename}',
+					callback: function (url, key) {
+                      $.ajax({
+                            url : "../add_upload_from_content_block",
+                            type: "POST",
+                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
+                            success: function(data, textStatus, jqXHR)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            },
+                            error: function (jqXHR, textStatus, errorThrown)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            }
+                        });
+                    },
+                    params: {
+					  utf8: '&#x2713;',
+                      acl: 'public-read', // ACL according to Amazon Documentation.
+                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
+                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOC0yNFQxNDoyMToyNC4yMjZaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
+                      signature: 'bisL7fP+IPe/w1bRa0yhmKxO9dI=', // Signature computed in the backend.
+                    }
+                }
+            
+	        })
+		}
+		$('#status_5460c9e46e6f6403a1000000').hide();
+        
+        $('#content_block_5460c9e46e6f6403a1000000').click(function(event){
+            event.preventDefault();
+            $('#edit_5460c9e46e6f6403a1000000').editable("save");
+        });
+      });
+  </script>
+</section>    
+<!-- event page CONTENT BLOCK END -->
