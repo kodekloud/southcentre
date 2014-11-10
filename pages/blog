@@ -44,9 +44,9 @@ table{
     width:auto;
 
 }
-.style-C img{
+.style-C td{
     width:908px;
-    height:440px;
+
     
 }
 </style>
