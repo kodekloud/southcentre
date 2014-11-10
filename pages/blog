@@ -48,6 +48,9 @@ table{
     width:908px;
     height:auto;
     
+} 
+.style-C img{
+    padding:0;
 }
 </style>
 
