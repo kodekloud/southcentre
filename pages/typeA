@@ -1,10 +1,10 @@
 
   <!-- Include Font Awesome. -->
-  <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/2d1c130c955dfba13494e39cc8285058/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
   <!-- Include Editor style. -->
-  <link href="../css/froala_editor.min.css" rel="stylesheet" type="text/css" />
-  <link href="../css/froala_style.min.css" rel="stylesheet" type="text/css" />
+  <link href="http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/2d1c130c955dfba13494e39cc8285058/froala_editor.min.css" rel="stylesheet" type="text/css" />
+  <link href="http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/2d1c130c955dfba13494e39cc8285058/froala_style.min.css" rel="stylesheet" type="text/css" />
 
 
 
@@ -18,7 +18,7 @@
   <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
 
   <!-- Include JS files. -->
-  <script src="../js/froala_editor.min.js"></script>
+  <script src="http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/2d1c130c955dfba13494e39cc8285058/froala_editor.min.js"></script>
 
 
 
