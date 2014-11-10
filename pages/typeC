@@ -17,7 +17,7 @@
 </style>
 
 <!-- typeC CONTENT BLOCK START-->    
-<section id="editor" class="froala-element">
+<section id="editor" class="">
   <a href="#" style="font-size:20px;display:none" id="content_block_54611b296e6f64575e010000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_54611b296e6f64575e010000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
   <div id='edit_54611b296e6f64575e010000'>
 	  <%=content_block_54611b296e6f64575e010000%>
