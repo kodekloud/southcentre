@@ -95,7 +95,7 @@
         
                 {{{content}}}
             
-                <span class="gray_divider"></span>
+                <p class="gray_divider"></p>
         </div>
         </script>
 
