@@ -95,7 +95,7 @@
         
                 {{{content}}}
             
-                <hr>
+                <span class="gray_divider"></span>
         </div>
         </script>
 
