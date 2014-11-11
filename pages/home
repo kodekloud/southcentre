@@ -79,23 +79,25 @@
 .type-content{
     margin:0 auto;
 }
+.main_content{
+}
   
 </style>
 
 
-     <div class="main_content">
+     <div class="main_content col-sm-9">
        <div id="content_blocks">
                 <h2>Loading Contents...<img style="width:30px; height:30px;" src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/f94e1c94989b31e20c66f9d548566e4e/loading.gif"></h2>
         </div>
     </div>
         <script id="content_block_template" type="x-tmpl-mustache">
-        <div class="type-content">
-            <h2>{{title}}</h2>
+        
+            <h1>{{title}}</h1>
         
                 {{{content}}}
             
-                <hr>
-        </div>
+                <div class="gray_divide">
+    
         </script>
 
 
