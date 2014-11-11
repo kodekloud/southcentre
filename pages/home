@@ -81,6 +81,7 @@
       max-width:970px;
       margin:0 auto;
   }
+  .
 </style>
 
 
@@ -97,7 +98,7 @@
             
                 
         </div>
-        <div class="gray_divider"></div>
+       <p class="gray_divider"></p>
         </script>
 
 
