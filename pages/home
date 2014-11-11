@@ -79,10 +79,6 @@
 .type-content{
     margin:0 auto;
 }
-.main_content{
-    margin:0 auto;
-    max-width:975px;
-}
   
 </style>
 
@@ -93,13 +89,13 @@
         </div>
     </div>
         <script id="content_block_template" type="x-tmpl-mustache">
-        <div>
-            <h1>{{title}}</h1>
+        <div class="type-content">
+            <h2>{{title}}</h2>
         
                 {{{content}}}
             
-     
-    </div>
+                <hr>
+        </div>
         </script>
 
 
