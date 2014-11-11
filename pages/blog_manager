@@ -72,7 +72,7 @@
       margin-right:30px;
   }
   .sylt-button div{
-      width: 150px;
+      \
   }
 </style>
 
