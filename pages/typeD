@@ -9,6 +9,7 @@
 .style-D img{
     width:100%;
     margin:0 auto;
+    margin-right:11px;
 }
 .style-D{
     max-width:598px;
