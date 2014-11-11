@@ -13,6 +13,7 @@
 .style-D{
     max-width:598px;
     height:auto;
+    float:left;
 }
 .description-D{    max-width:288px;      text-align:center;    padding:11px;    vertical-align:top;    float:left;}
     
