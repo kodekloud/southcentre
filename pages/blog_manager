@@ -121,8 +121,6 @@
                     }
                 });
 
-                buttons();
-
             });
         
         </script>
@@ -138,67 +136,3 @@
 
 
 
-
-<script>
-function buttons(){
-
-$(function() {
-    $('#edit_545d0d166e6f6420b7010000').editable({
-      // Set custom buttons with separator between them. Also include the name
-      // of the buttons  defined in customButtons.
-      buttons: ['undo', 'redo' , 'bold', 'sep', 'alert', 'clear', 'insertHTML'],
-      // Define custom buttons.
-      customButtons: {
-        // Alert button with Font Awesome icon.
-        alert: {
-          title: 'Alert',
-          icon: {
-            type: 'font',
-
-            // Font Awesome icon class fa fa-*.
-            value: 'fa fa-info'
-          },
-          callback: function () {
-            alert ('Hello!')
-          },
-          refresh: function () { }
-        },
-
-        // Clear HTML button with text icon.
-        clear: {
-          title: 'Clear HTML',
-          icon: {
-            type: 'txt',
-            value: 'x'
-          },
-          callback: function () {
-            this.setHTML('');
-            this.focus();
-          },
-          refresh: function () { }
-        },
-
-        // Insert HTML button with image button.
-        insertHTML: {
-          title: 'Insert HTML',
-          icon: {
-            // Recommended size: 40 x 35.
-            type: 'img',
-
-            // src for the image.
-            value: 'image_src'
-          },
-          callback: function () {
-            // Insert HTML.
-            this.insertHTML('My new HTML');
-
-            // Save HTML in undo stack.
-            this.saveUndoStep();
-          },
-          refresh: function () { }
-        }
-      }
-    })
-  });
- }
-</script>
