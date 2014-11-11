@@ -29,15 +29,41 @@
     font-weight:bold;font-size:14px;
 }
 
-.style-A, .style-B, .style-C, .style-F {    
+.style-A, .style-B, .style-D,.style-C, .style-F {    
     max-width:288px;      
     text-align:center;    
-    padding:11px;    
+    padding-left:11px; 
+    padding-right:11px;   
     vertical-align:top;    
     float:left;
 }
   
+.image-C, .description-C{
+  margin:0 auto;
+  max-width:908px;
+}
+.image-C img{
+    width:100%;
+    margin-bottom:22px;
+}
+.style-D img{
+    width:100%;
+    margin:0 auto;
     
+}
+.style-D{
+    max-width:598px;
+    height:auto;
+    float:left;
+    margin-right:11px;
+}
+.description-D{    max-width:288px;      text-align:center;    margin:11px;    vertical-align:top;    float:left;}
+
+.description-F{
+    height:328px;
+}    
+
+  
 </style>
 
 
