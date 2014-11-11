@@ -70,12 +70,12 @@
 
     <section>
         <a href="#" id="add_new_content_block"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add New Post</div></a><hr>
-        <a href="#" id="add_new_type_A"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add New Post</div></a><hr>
-        <a href="#" id="add_new_type_B"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add New Post</div></a><hr>
-        <a href="#" id="add_new_type_C"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add New Post</div></a><hr>
-        <a href="#" id="add_new_type_D"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add New Post</div></a><hr>
-        <a href="#" id="add_new_type_E"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add New Post</div></a><hr>
-        <a href="#" id="add_new_type_F"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add New Post</div></a><hr>
+        <a href="#" id="add_new_type_A"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add Type A</div></a><hr>
+        <a href="#" id="add_new_type_B"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add Type B</div></a><hr>
+        <a href="#" id="add_new_type_C"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add Type C</div></a><hr>
+        <a href="#" id="add_new_type_D"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add Type D</div></a><hr>
+        <a href="#" id="add_new_type_E"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add Type E</div></a><hr>
+        <a href="#" id="add_new_type_F"><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px;color:#C0C0C0">Add Type F</div></a><hr>
        
         <script>
   
