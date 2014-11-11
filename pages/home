@@ -81,7 +81,15 @@
       max-width:970px;
       margin:0 auto;
   }
-  .
+  .blog_divider{
+       background-image: url("http://cdn.mallmaverick.com/system/site_images/photos/000/003/834/original/line_dotted_white.png?1410202196");
+    background-repeat: repeat;
+    height: 3px;
+    margin: 0 auto;
+    width: 100%;
+    float:left;
+}
+  }
 </style>
 
 
