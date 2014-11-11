@@ -88,7 +88,6 @@
 </style>
 
 <!-- Please call pinit.js only once per page -->
-<script type="text/javascript" async  data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
 
      <div class="main_content">
        <div id="content_blocks">
@@ -152,3 +151,18 @@
     });
     </script>
     
+<script>
+//<![CDATA[
+var bs_pinButtonURL = "http://3.bp.blogspot.com/-y3xzTGiGzH0/UK4XOaUpdaI/AAAAAAAADw8/Z1MH4Jr4Efo/s1600/pinterestx1_72.png";
+var bs_pinButtonPos = "center";
+var bs_pinPrefix = "";
+var bs_pinSuffix = "";
+//]]>
+</script>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+<script id='bs_pinOnHover' src='http://greenlava-code.googlecode.com/svn/trunk/publicscripts/bs_pinOnHoverv1_min.js' type='text/javascript'>
+// This Pinterest Hover Button is brought to you by bloggersentral.com.
+// Visit http://www.bloggersentral.com/2012/11/pinterest-pin-it-button-on-image-hover.html for details.
+// Feel free to use and share, but please keep this notice intact.
+
+</script>
