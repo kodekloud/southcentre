@@ -28,13 +28,15 @@
     font-family: ChronicleDisplay-Italic;
     font-weight:bold;font-size:14px;
 }
-.style-A {   
+
+.style-A, .style-B, .style-C, .style-F {    
     max-width:288px;      
     text-align:center;    
     padding:11px;    
     vertical-align:top;    
     float:left;
 }
+  
     
 </style>
 
