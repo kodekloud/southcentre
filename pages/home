@@ -90,7 +90,7 @@
     </div>
         <script id="content_block_template" type="x-tmpl-mustache">
         <div class="type-content">
-            <h2>{{title}}</h2>
+            <h1>{{title}}</h1>
         
                 {{{content}}}
             
