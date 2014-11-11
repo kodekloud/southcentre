@@ -70,7 +70,9 @@
 .description-F{
     height:328px;
 }    
-
+.type-content{
+    margin:0 auto;
+}
   
 </style>
 
