@@ -32,8 +32,8 @@
 .style-A, .style-B, .style-D,.style-C, .style-F {    
     max-width:288px;      
     text-align:center;    
-    padding-left:11px; 
-    padding-right:11px;   
+    margin-left:11px; 
+    margin-right:11px;   
     vertical-align:top;    
     float:left;
 }
