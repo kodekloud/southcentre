@@ -7,7 +7,7 @@
 .store-gg{font-family: ChronicleDisplay-Italic;font-weight:bold;font-size:14px;}
 
 
-.style-B, .style-C {    max-width:288px;      text-align:center;    padding:11px;    vertical-align:top;    float:left;}
+.style-D{    max-width:288px;      text-align:center;    padding:11px;    vertical-align:top;    float:left;}
     
 </style>
 
