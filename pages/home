@@ -57,7 +57,7 @@
     float:left;
     margin-right:11px;
 }
-.description-D{    max-width:288px;      text-align:center;    margin:11px;    vertical-align:top;    float:left;}
+.description-D{    max-width:288px;      text-align:center;    margin-left:11px; margin-right:11px;    vertical-align:top;    float:left;}
 
 .description-F{
     height:328px;
