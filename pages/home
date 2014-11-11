@@ -81,7 +81,9 @@
       max-width:970px;
       margin:0 auto;
   }
-  
+  .gray_divider{
+      float:left;
+  }
 </style>
 
 
