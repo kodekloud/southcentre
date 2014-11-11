@@ -73,6 +73,9 @@
     height:328px;
     margin-bottom:0px;
 }    
+.margin-top-none{
+    margin-top:0px;
+}
 .type-content{
     margin:0 auto;
 }
