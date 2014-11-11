@@ -84,12 +84,12 @@
 
   .holiday_divider{
  background-image: url("http://cdn.mallmaverick.com/system/site_images/photos/000/003/835/original/line_dotted_gray.png?1410202262");
-    background-position: center center;
+   
     background-repeat: no-repeat;
     height: 3px;
     margin: 0 auto;
     max-width: 100%;
-    padding: 2.188em;
+ 
     float:left;
 }
   }
