@@ -93,13 +93,13 @@
         </div>
     </div>
         <script id="content_block_template" type="x-tmpl-mustache">
-        
+        <div>
             <h1>{{title}}</h1>
         
                 {{{content}}}
             
                 <div class="gray_divider"></div>
-    
+    </div>
         </script>
 
 
