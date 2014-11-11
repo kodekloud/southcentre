@@ -80,6 +80,7 @@
     margin:0 auto;
 }
 .main_content{
+    margin:0 auto;
 }
   
 </style>
