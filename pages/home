@@ -81,6 +81,7 @@
 }
 .main_content{
     margin:0 auto;
+    max-width:975px;
 }
   
 </style>
