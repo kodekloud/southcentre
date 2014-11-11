@@ -60,6 +60,7 @@
     margin:0 auto;
     
 }
+
 .style-D{
     max-width:598px;
     height:auto;
@@ -70,6 +71,7 @@
 
 .description-F{
     height:328px;
+    margin-bottom:0px;
 }    
 .type-content{
     margin:0 auto;
