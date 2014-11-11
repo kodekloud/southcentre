@@ -1,0 +1,130 @@
+<style>
+.title-gg{    
+    font-size: 26px;     
+    font-family: ChronicleDisplay-Italic;    
+}
+.content-gg{    
+    font-family:Whitney-light;    
+    font-size:18px;    
+    margin-bottom:0px;    
+    width:288px;    
+}
+.type-gg{
+    margin:0 auto;
+    
+}
+.description-gg{     
+    font-family: ChronicleDeck-Roman;    
+    font-size: 14px;    
+    margin-bottom:0px;    
+    text-align:left;      
+    line-height:22px;      
+    margin-right:15px;
+}
+.description-image{    
+    margin-top:12px;
+}
+.store-gg{
+    font-family: ChronicleDisplay-Italic;
+    font-weight:bold;font-size:14px;
+}
+
+.style-A, .style-B, .style-D,.style-C, .style-F {    
+    max-width:288px;      
+    text-align:center;    
+    padding-left:11px; 
+    padding-right:11px;   
+    vertical-align:top;    
+    float:left;
+}
+  
+.image-C, .description-C{
+  margin:0 auto;
+  max-width:908px;
+}
+.image-C img{
+    width:100%;
+    margin-bottom:22px;
+}
+.style-D img{
+    width:100%;
+    margin:0 auto;
+    
+}
+.style-D{
+    max-width:598px;
+    height:auto;
+    float:left;
+    margin-right:11px;
+}
+.description-D{    max-width:288px;      text-align:center;    margin:11px;    vertical-align:top;    float:left;}
+
+.description-F{
+    height:328px;
+}    
+
+  
+</style>
+
+
+     <div class="main_content">
+       <div id="content_blocks">
+                <h2>Loading Contents...<img style="width:30px; height:30px;" src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/f94e1c94989b31e20c66f9d548566e4e/loading.gif"></h2>
+        </div>
+    </div>
+        <script id="content_block_template" type="x-tmpl-mustache">
+        <div>
+            <div></div>
+            <h2>{{title}}</h2>
+        
+                {{{content}}}
+            
+                <hr>
+        </div>
+        </script>
+
+
+
+      <script>
+       $(document).ready(function() {
+        
+                var web_page_json = null;
+                $.ajax({
+                    url: "../web_pages/545bdd136e6f645bae060000.json",
+                    dataType: 'json',
+                    async: false,
+                    data: "",
+                    success: function(data) {
+                        web_page_json = data;
+                        console.log("website json");
+                        console.log(web_page_json);
+                    }
+                });
+    
+                 renderContentBlocks('#content_block_template','#content_blocks',web_page_json);
+                function renderContentBlocks(template_id,html_id,web_page_json){
+                    var item_list = [];
+                    var rendered_list = [];
+                    var template = $(template_id).html();
+                    Mustache.parse(template);
+              
+                     $.each( web_page_json.web_content_blocks , function( key, val ) {
+                        item_list.push(val);
+         
+                    });
+                  
+                     $.each( item_list , function( key, val ) {
+                        var item_rendered = Mustache.render(template,val);
+                        rendered_list.push(item_rendered);
+                      
+                    });
+                  
+                    $(html_id).html(rendered_list.join(''));
+                }
+      
+ 
+        
+        
+
+    });
+    </script>
