@@ -21,11 +21,11 @@
 .style-B, .style-A {    width:288px;      text-align:center;    padding:11px;    vertical-align:top;    float:left;}
 
 
-.style-C{
+.img-C{
   margin:0 auto;
   max-width:908px;
 }
-.style-C img{
+.img-C img{
     width:100%;
     margin-bottom:22px;
 }
