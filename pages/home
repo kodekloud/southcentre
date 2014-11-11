@@ -81,8 +81,7 @@
         </div>
     </div>
         <script id="content_block_template" type="x-tmpl-mustache">
-        <div>
-            <div></div>
+        <div class="type-content">
             <h2>{{title}}</h2>
         
                 {{{content}}}
