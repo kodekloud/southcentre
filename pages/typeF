@@ -11,19 +11,17 @@
 .description-F{
     height:328px;
 }    
-.go-middle{
-    margin:0 auto;
-}
+
 </style>
 
 <!-- /typeF CONTENT BLOCK START-->    
 <section id="editor" class="froala-element">
   <a href="#" style="font-size:20px;display:none" id="content_block_546234016e6f6407a0030000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_546234016e6f6407a0030000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
-<div class="section_content">
-  <div class="go-middle" id='edit_546234016e6f6407a0030000'>
+
+  <div  id='edit_546234016e6f6407a0030000'>
 	  <%=content_block_546234016e6f6407a0030000%>
   </div>
- </div>
+
   <script>
       $(function(){
 		if (typeof $('#edit_546234016e6f6407a0030000').editable != 'undefined') {
