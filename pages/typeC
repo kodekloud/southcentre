@@ -47,6 +47,7 @@
 			$('#content_block_54611b296e6f64575e010000').show();
 	        $('#edit_54611b296e6f64575e010000').editable({
 				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
+			    beautifyCode: true,
 				inlineMode: false,
                 paragraphy: true,
                 alwaysBlank: true,
