@@ -81,10 +81,14 @@
       max-width:970px;
       margin:0 auto;
   }
-  .gray_divider{
-      float:left;
-      width:100%;
-      
+
+  .holiday_divider{
+      background-image: url("http://cdn.mallmaverick.com/system/site_images/photos/000/003/834/original/line_dotted_white.png?1410202196");
+    background-repeat: repeat;
+    height: 3px;
+    margin: 0 auto;
+    width: 100%;
+}
   }
 </style>
 
@@ -100,7 +104,7 @@
         
                 {{{content}}}
             
-                 <p class="gray_divider"></p>    
+                 <p class="holiday_divider"></p>    
         </div>
   
         </script>
