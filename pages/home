@@ -84,7 +84,6 @@
   .gray_divider{
       float:left;
       width:100%;
-      background-repeat:repeat-x;
   }
 </style>
 
