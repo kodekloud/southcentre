@@ -17,7 +17,7 @@
     float:left;
     margin-right:11px;
 }
-.description-D{    max-width:288px;      text-align:center;    padding:11px;    vertical-align:top;    float:left;}
+.description-D{    max-width:288px;      text-align:center;    margin:11px;    vertical-align:top;    float:left;}
     
 </style>
 
