@@ -88,7 +88,7 @@
 </style>
 
 <script>
-  $( img ).mouseover(function() {
+  $( "img" ).mouseover(function() {
   alert('hi');
   });
  
