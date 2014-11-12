@@ -186,7 +186,21 @@ function pinterestButton(){
             
             var pinCode ="<span class='st_facebook_hcount' displayText='Facebook'></span><span class='st_pinterest_hcount' displayText='Pinterest'></span>";
             $(this).after(pinCode);
-                    stButtons.locateElements();
+            stButtons.locateElements();
+            
+             stWidget.addEntry({
+                 "service":"sharethis",
+                 "element":document.getElementById('button_1'),
+                 "url":"http://sharethis.com",
+                 "title":"sharethis",
+                 "type":"large",
+                 "text":"ShareThis" ,
+                 "image":imgSrc
+                 
+         });
+            
+            
+            
           }
         );
 
