@@ -148,7 +148,7 @@
                     $(html_id).html(rendered_list.join(''));
                 }
       
- 
+                pinterestButton();
         
  
 
