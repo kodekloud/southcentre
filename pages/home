@@ -185,10 +185,11 @@ function pinterestButton(){
          
             
             var pinCode ="<span class='st_facebook_hcount' displayText='Facebook'></span><span class='st_pinterest_hcount' displayText='Pinterest'></span>";
-   $(this).after(pinCode);
+            $(this).after(pinCode);
+                    stButtons.locateElements();
           }
         );
-        stButtons.locateElements();
+
 }
      
 
