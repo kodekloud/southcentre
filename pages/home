@@ -158,7 +158,7 @@ function pinterestButton(){
         
         
         
-        $( "img" ).hover(
+        $( "img.fr-fin" ).hover(
           function() {
                 var imgSrc = $(this).attr('src');
              var url = window.location.href;
