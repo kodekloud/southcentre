@@ -187,7 +187,7 @@ function pinterestButton(){
             var pinCode ="<span class='st_facebook_hcount' displayText='Facebook'></span><span class='st_pinterest_hcount' displayText='Pinterest'></span><span id='button_1'></span>";
             $(this).after(pinCode);
                      stWidget.addEntry({
-                 "service":"sharethis",
+                 "service":"pinterest",
                  "element":document.getElementById('button_1'),
                  "url":url,
                  "title":"sharethis",
