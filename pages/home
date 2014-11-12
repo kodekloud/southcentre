@@ -88,9 +88,15 @@
 </style>
 
 <script>
-  $( ".fr-fin" ).mouseover(function() {
+  $( ).mouseover(function() {
   alert('hi');
   });
+ 
+ $( ".fr-fin"  ).mouseover(function() {
+  console.log('works');
+});
+ 
+ 
  
     var url = window.location.href; 
     
