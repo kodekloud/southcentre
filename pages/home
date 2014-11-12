@@ -143,7 +143,7 @@
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "f11a75cd-2e38-498d-9fe6-44ee2b91931d", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
  <div class="hidden-popup-bg">
-        <div class="visible-phone mobile-sign-up">
+        <div class="visible-phone mobile-sign-up" style="display:none;">
             <div style="background:#fff; width: 80%; margin: 10% auto;">
               <div style="background:#333;" class="modal-header">
                 <button style="color:#fff;" aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
