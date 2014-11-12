@@ -163,7 +163,7 @@
 
     });
     
-    
+    alert('hi');
      
  $( "img"  ).click(function() {
     alert('works');
