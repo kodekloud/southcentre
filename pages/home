@@ -195,7 +195,7 @@ function pinterestButton(){
                  "text":"ShareThis" ,
                  "image":imgSrc
                  
-         });
+            });
             stButtons.locateElements();
             
         
