@@ -184,11 +184,11 @@ function pinterestButton(){
             // var pinCode = '<a class="pinterestBtn" href="//www.pinterest.com/pin/create/button/?url=' + url+ '&media=' + imgSrc + '&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a>'
      
             console.log(imgSrc);       
-            var pinCode ="<span class='st_facebook_hcount' displayText='Facebook'></span><span id='button_1'></span>";
+            var pinCode ="<span class='st_fblike_large' displayText='Facebook Like'></span></span><span id='button_1'></span>";
             $(this).after(pinCode);
                      stWidget.addEntry({
                  "service":"pinterest",
-                 "element":document.getElementById('button_1'),
+                 "element":document.getElementById('pinterest'),
                  "url":url,
                  "title":"sharethis",
                  "type":"hcount",
