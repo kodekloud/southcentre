@@ -88,9 +88,7 @@
 </style>
 
 <script>
-  $( ).mouseover(function() {
-  alert('hi');
-  });
+
  
  $( ".fr-fin"  ).mouseover(function() {
   console.log('works');
