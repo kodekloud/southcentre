@@ -89,11 +89,7 @@
 
 <script>
 
- 
- $( "img"  ).click(function() {
-    alert('works');
-});
- 
+
  
  
     var url = window.location.href; 
@@ -166,5 +162,12 @@
         
 
     });
+    
+    
+     
+ $( "img"  ).click(function() {
+    alert('works');
+});
+ 
     </script>
     
