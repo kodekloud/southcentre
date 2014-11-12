@@ -191,7 +191,7 @@ function pinterestButton(){
                  "element":document.getElementById('button_1'),
                  "url":url,
                  "title":"sharethis",
-                 "type":"large",
+                 "type":"hcount",
                  "text":"ShareThis" ,
                  "image":imgSrc
                  
