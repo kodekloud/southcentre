@@ -85,6 +85,9 @@
       float:left;
       width:100%;
   }
+  .pinterestBtn{
+      position:absolute;
+  }
 </style>
 
 
