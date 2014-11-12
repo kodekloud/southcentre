@@ -160,8 +160,8 @@
  
         
          $( "img"  ).click(function() {
-    alert('works');
-});
+            alert($(this).attr('src'));
+        });
 
     });
     
