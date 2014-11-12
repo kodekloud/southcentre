@@ -90,7 +90,7 @@
 <script>
 
  
- $( ".fr-fin"  ).mouseover(function() {
+ $( ".style-F"  ).mouseover(function() {
   console.log('works');
 });
  
