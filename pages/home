@@ -159,15 +159,15 @@
       
  
         
-        
+         $( "img"  ).click(function() {
+    alert('works');
+});
 
     });
     
-    alert('hi');
+
      
- $( "img"  ).click(function() {
-    alert('works');
-});
+
  
     </script>
     
