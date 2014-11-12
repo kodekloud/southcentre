@@ -162,11 +162,11 @@ function pinterestButton(){
           function() {
                 var imgSrc = $(this).attr('src');
              var url = window.location.href;
-             var pinCode = '<a href="//www.pinterest.com/pin/create/button/?url=' + url+ '&media=' + imgSrc + '&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a>'
+             var pinCode = '<a id="pinterestBtn" href="//www.pinterest.com/pin/create/button/?url=' + url+ '&media=' + imgSrc + '&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a>'
             $(this).after(pinCode);
           }, function() {
             alert('hi');
-            $( this ).find( "a" ).remove();
+            $( "#pinterestBtn" ).remove();
           }
         );
 }
