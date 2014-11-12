@@ -190,35 +190,35 @@ function pinterestButton(){
         );
         
         
-          $( "img.fr-fin" ).mouseover(
+        //   $( "img.fr-fin" ).mouseover(
               
-          function() {
+        //   function() {
               
-            var imgSrc = $(this).attr('src');
-             var url = window.location.href;
-            // var pinCode = '<a class="pinterestBtn" href="//www.pinterest.com/pin/create/button/?url=' + url+ '&media=' + imgSrc + '&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a>'
+        //     var imgSrc = $(this).attr('src');
+        //      var url = window.location.href;
+        //     // var pinCode = '<a class="pinterestBtn" href="//www.pinterest.com/pin/create/button/?url=' + url+ '&media=' + imgSrc + '&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a>'
      
-            console.log(imgSrc);       
-            var pinCode ="<span class='st_fblike_large' displayText='Facebook Like'></span></span><span id='pinterestBtn'></span>";
-            $(this).after(pinCode);
-                     stWidget.addEntry({
-                 "service":"pinterest",
-                 "element":document.getElementById('pinterestBtn'),
-                 "url":url,
+        //     console.log(imgSrc);       
+        //     var pinCode ="<span class='st_fblike_large' displayText='Facebook Like'></span></span><span id='pinterestBtn'></span>";
+        //     $(this).after(pinCode);
+        //              stWidget.addEntry({
+        //          "service":"pinterest",
+        //          "element":document.getElementById('pinterestBtn'),
+        //          "url":url,
                 
-                 "type":"hcount",
+        //          "type":"hcount",
              
-                 "image":imgSrc
+        //          "image":imgSrc
                  
-            });
-            stButtons.locateElements();
+        //     });
+        //     stButtons.locateElements();
             
         
             
             
             
-          }
-        );
+        //   }
+        // );
 
 }
      
