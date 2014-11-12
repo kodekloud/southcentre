@@ -175,7 +175,7 @@ function pinterestButton(){
         // );
         
         
-          $( "img.fr-fin" ).click(
+          $( "img.fr-fin" ).mouseover(
           function() {
             var imgSrc = $(this).attr('src');
              var url = window.location.href;
