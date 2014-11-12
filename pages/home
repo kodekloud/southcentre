@@ -88,7 +88,7 @@
 </style>
 
 <script>
-    $(img).mouseover(alert('hi'));
+    $(img).mouseover(alert('hi'););
     var url = window.location.href; 
     
 </script>
