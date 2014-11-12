@@ -90,7 +90,7 @@
 <script>
 
  
- $( ".style-F"  ).mouseover(function() {
+ $( ".style-F"  ).click(function() {
   console.log('works');
 });
  
