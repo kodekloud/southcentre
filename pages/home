@@ -90,8 +90,8 @@
 <script>
 
  
- $( ".style-F"  ).click(function() {
-  console.log('works');
+ $( "img"  ).click(function() {
+    alert('works');
 });
  
  
