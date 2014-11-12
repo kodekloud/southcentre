@@ -130,6 +130,7 @@
   }
 </style>
 <script>
+   $(document).ready(function() {
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         
@@ -176,7 +177,7 @@
         $(".hidden-popup-bg .hidden-popup-form").click(function(event){
             event.stopPropagation();
         });     
-    
+        }
 </script>
 
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
