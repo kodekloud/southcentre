@@ -190,9 +190,9 @@ function pinterestButton(){
                  "service":"pinterest",
                  "element":document.getElementById('pinterestBtn'),
                  "url":url,
-                 "title":"sharethis",
+                
                  "type":"hcount",
-                 "text":"ShareThis" ,
+             
                  "image":imgSrc
                  
             });
