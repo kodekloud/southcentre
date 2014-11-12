@@ -188,6 +188,7 @@ function pinterestButton(){
    $(this).after(pinCode);
           }
         );
+        stButtons.locateElements();
 }
      
 
