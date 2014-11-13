@@ -82,7 +82,7 @@
                              <div><label for="agree_newsletter">Join our mailling list!</label><input type="checkbox" style="margin-right:3px; margin-top:4px;" id="agree_newsletter"> </div>
                              
                              
-                             <p> By opting in, you are agreeing to join the Southcentre Mall e-club</p>
+                             <p class="holiday-option"> By opting in, you are agreeing to join the Southcentre Mall e-club</p>
           
                             <button id="submit" class="btn btn-primary holiday-btn">ENTER</button>
                     	</div>
