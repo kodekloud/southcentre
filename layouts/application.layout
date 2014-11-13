@@ -63,22 +63,18 @@
                    <form  style="margin: 0px auto;" onsubmit="return validateNewsletterPopup()" class="popup-form-div"  id="newsletter_form"  action="http://mobilefringe.createsend.com/t/d/s/tylikj/"  method="post">
                          <div class="floater-left">
                             <label>First Name</label> 
-                            <br>
                             <input class="holiday-typebox" id="firstName" name="firstName" type="text" required />
                         </div>
                         <div class="floater-left">
                             <label>Last Name</label>
-                            <br>
                             <input class="holiday-typebox" id="lastName" name="lastName" type="text" required />
                         </div>
                         <div class="floater-left">
                             <label>Phone Number</label>
-                            <br>
                             <input class="holiday-typebox"  id="fieldEmail" name="cm-tylikj-tylikj" type="email" required />
                         </div>
                         <div class="floater-left">
                             <label>E-mail Address</label> 
-                            <br>
                             <input class="holiday-typebox"  id="fieldEmail" name="cm-tylikj-tylikj" type="email" required />
                         </div>
                   
