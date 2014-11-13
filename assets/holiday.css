@@ -32,7 +32,11 @@
 }
 .agree-btn label{
     width:125px;
-    
+        font-size:13px;
+    color:black;
+    font-family: WhitneyHTF-Book;
+    float:left;
+    width:95px;
 }
 #agree_newsletter{
     margin-bottom:8px;
