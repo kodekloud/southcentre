@@ -23,6 +23,7 @@
     font-family: ChronicleDeck-Roman; 
     font-weight:bold;
     font-size:20px;
+    margin-bottom: 0px;
 }
 .stMainServices, .stHBubble{
     height:25px !important;
