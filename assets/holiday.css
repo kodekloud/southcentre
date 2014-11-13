@@ -3,7 +3,10 @@
     position: absolute;
     right: 0; 
 }
-
+.holiday-popup-footer{
+     font-family: ChronicleDisplay-Italic;
+    font-size:12px;
+}
 .holiday-popup-header{
     font-size:28px;
     color:black;
