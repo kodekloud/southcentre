@@ -16,10 +16,12 @@
 .holiday-typebox{
     width:183px !important;
     height:23px !important;
+    float:left;
    
 }
 .floater-left{
     float:left;
+    
 }
 .holiday-popup-header{
     font-size:28px;
