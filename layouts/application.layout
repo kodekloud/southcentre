@@ -52,7 +52,7 @@
         </div>
         <div class="hidden-popup-form hidden-phone">
            <div class="popup-header">
-               <p onclick="close_popup();" class="popup-close pull-right">X</p>
+               <p onclick="close_popup();" class="popup-close pull-right"></p>
            </div>
            <div class="popup-body">
               <h3 class="holiday-popup-header">Enjoy the Southcentre Mall Holiday Gift Guide, and enter to win 1 of 10</h3>
