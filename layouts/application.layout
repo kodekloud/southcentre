@@ -65,6 +65,8 @@
                          <div class="floater-left">
                             <label>First Name</label> 
                             <input class="holiday-typebox" id="firstName" name="firstName" type="text" required />
+                            <input id="fieldName" name="cm-name" type="hidden" />
+                            
                         </div>
                         <div class="floater-left">
                             <label>Last Name</label>
@@ -72,15 +74,15 @@
                         </div>
                         <div class="floater-left">
                             <label>Phone Number</label>
-                            <input class="holiday-typebox"  id="phoneNumber" name="cm-tylikj-tylikj" type="text" required />
+                            <input class="holiday-typebox"  id="phoneNumber" name="cm-f-yhtlyu" type="text" required />
                         </div>
                         <div class="floater-left">
                             <label>E-mail Address</label> 
-                            <input class="holiday-typebox"  id="fieldEmail" name="cm-tylikj-tylikj" type="email" required />
+                            <input class="holiday-typebox"  id="fieldEmail" name="cm-tjdklu-tjdklu" type="email" required />
                         </div>
                   
                         <div class="floater-left agree-btn">
-                             <div><label for="agree_newsletter">Join our mailling list!</label><input type="checkbox" style="margin-right:3px; margin-top:4px;" id="agree_newsletter"> </div>
+                             <div><label>Join our mailling list!</label><input type="checkbox" style="margin-right:3px; margin-top:4px;" name="cm-ol-juitdh" id="listjuitdh"> </div>
                              
                              
                              <p class="holiday-option"> By opting in, you are agreeing to join the Southcentre Mall e-club</p>
