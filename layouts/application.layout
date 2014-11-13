@@ -55,8 +55,7 @@
            </div>
            <div class="popup-body">
               <h3 class="holiday-popup-header">Enjoy the Southcentre Mall Holiday Gift Guide, and enter to win 1 of 10</h3>
-                <p style="font-size: 16px; margin-bottom: 35px; text-align: center;">Sales. Events. Fashion news. All kinds of can't-miss shopping info goes directly to those on <em>The List</em> first. Might want to get your name on it.</p>
-           
+                <div class="holiday_divider"></div>
                  <div class="popup-form">
                    <form style="margin: 0px auto;" onsubmit="return validateNewsletterPopup()" class="popup-form-div"  id="newsletter_form"  action="http://mobilefringe.createsend.com/t/d/s/tylikj/"  method="post">
                        
