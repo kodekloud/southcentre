@@ -86,6 +86,7 @@
      padding-top:3px;
  }      
 .popup-close{
+    background:url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/49986ff249df53ba1e26eb3c6fefc753/close.png");
     cursor:pointer;
     margin-bottom:0px;
 }
