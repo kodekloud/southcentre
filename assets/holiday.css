@@ -1,8 +1,8 @@
-  .social-btn{
+.social-btn{
     bottom: 35px;
     position: absolute;
     right: 0; 
-  }
+}
 .holiday-dot-divider{
    float: left;
     width: 100%;
@@ -14,9 +14,9 @@
     padding: 1em;
 
 }
-      .stMainServices, .stHBubble{
-          height:25px !important;
-          }
+.stMainServices, .stHBubble{
+    height:25px !important;
+}
        
 .popup-close{
     cursor:pointer;
