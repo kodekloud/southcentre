@@ -7,6 +7,11 @@
      font-family: ChronicleDisplay-Italic;
     font-size:12px;
 }
+.popup-form-div label{
+    font-size:13px;
+    color:black;
+    font-family: WhitneyHTF-Book;
+}
 .holiday-popup-header{
     font-size:28px;
     color:black;
