@@ -26,22 +26,7 @@
     <!-- cookie jqeury -->
         <script src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/601617fe9ab691b1b62a66ac3ca3e8b7/jquery.cookie.js"></script>
     <link href="/holiday.css" rel="stylesheet">
-    <script>
-          function validateNewsletterPopup(){
-            if ($("#agree_newsletter_page").prop("checked") != true){
-                alert("Please agree to the receiving newsletter.");
-                $("#agree_newsletter").focus();
-                return false;
-            }
-            else{
-                var firstName = $('#firstName').val();
-                var lastName = $('#lastName').val();
-                var name = firstName + " " + lastName;
-                return true;
-            }
-        }
-        
-    </script>
+
 
 </head>
 
