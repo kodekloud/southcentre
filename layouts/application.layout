@@ -79,18 +79,17 @@
                         </div>
                   
                         <div class="floater-left agree-btn">
-                       
+                             <div><label for="agree_newsletter">Join our mailling list!</label><input type="checkbox" style="margin-right:3px; margin-top:4px;" id="agree_newsletter"> </div>
+                             
+                             
+                             <p class="holiday-option"> By opting in, you are agreeing to join the Southcentre Mall e-club</p>
+          
                             <button id="submit" class="btn btn-primary holiday-btn">ENTER</button>
                     	</div>
                     
                     	<div class="clearfix"></div>
                     
                     </form>  
-                          <div><label for="agree_newsletter">Join our mailling list!</label><input type="checkbox" style="margin-right:3px; margin-top:4px;" id="agree_newsletter"> </div>
-                             
-                             
-                             <p class="holiday-option"> By opting in, you are agreeing to join the Southcentre Mall e-club</p>
-          
                     <p class=" holiday-popup-footer">Draw date Fri, Dec. 19, 2014, noon MST. See Guest Services for full details and rules & regulations.</p>
                </div>
                    
