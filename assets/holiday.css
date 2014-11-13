@@ -40,7 +40,8 @@
     background: none repeat scroll 0 0 #fff;
     border: 6px solid #000;
     margin: 7% auto;
-    width: 500px;
+    max-width: 640px;
+    max-height:440px;
 }
 
 .popup-header{
