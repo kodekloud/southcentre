@@ -28,7 +28,11 @@
 .stMainServices, .stHBubble{
     height:25px !important;
 }
-       
+ .holiday-btn{
+     font-family:ChronicleDeck;
+     font-size:13px;
+     background-color:e70033;
+ }      
 .popup-close{
     cursor:pointer;
     margin-bottom:0px;
