@@ -135,7 +135,7 @@
         var slug = pathArray[pathArray.length-1];
         
         if (slug.length===0 || slug ==="/" ||slug.match(/^\/?home/)){
-            
+            alert('hi');
             
             var visited = $.cookie("visited");
             var winwidth = $(window).width();
