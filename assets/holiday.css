@@ -66,6 +66,7 @@
      background-color:#e70033;
      width:109px;
      height:23px;
+     border:none;
  }      
 .popup-close{
     cursor:pointer;
