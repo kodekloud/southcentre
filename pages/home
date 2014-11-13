@@ -18,6 +18,13 @@
    z-index:999999999;
    display:none;
 }
+.hidden-popup-form {
+    background: none repeat scroll 0 0 #fff;
+    border: 6px solid #000;
+    margin: 7% auto;
+    width: 500px;
+}
+
 .popup-header{
        min-height: 16.4286px;
     padding: 15px;
@@ -169,6 +176,7 @@
         
             
         $(".hidden-popup-bg").click(function(event){
+            
             if( !$( event.target).is('.hidden-popup-form') ) {
             close_popup();
         } else {
