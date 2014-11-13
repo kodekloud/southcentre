@@ -1,6 +1,10 @@
 
 <style>
-
+  .social-btn{
+    bottom: 35px;
+    position: absolute;
+    right: 0; 
+  }
 .holiday-dot-divider{
    float: left;
     width: 100%;
@@ -108,6 +112,7 @@
     margin:11px;
     vertical-align:top;    
     float:left;
+    position:relative;
 }
   
 .image-C, .description-C{
