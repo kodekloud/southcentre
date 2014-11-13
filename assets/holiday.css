@@ -20,6 +20,7 @@
        
 .popup-close{
     cursor:pointer;
+    margin-bottom:0px;
 }
 .fixed {
     background: none repeat scroll 0 0 #fff;
