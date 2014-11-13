@@ -67,7 +67,7 @@
      width:109px;
      height:23px;
      border:none;
-     vertical-align:middle;
+     padding-top:3px;
  }      
 .popup-close{
     cursor:pointer;
