@@ -1,10 +1,6 @@
 
 <style>
-  .social-btn{
-    bottom: 35px;
-    position: absolute;
-    right: 0; 
-  }
+
 .holiday-dot-divider{
    float: left;
     width: 100%;
