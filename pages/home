@@ -11,6 +11,10 @@
     padding: 1em;
 
 }
+      .stMainServices, .stHBubble{
+          height:25px !important;
+          }
+       
 .popup-close{
     cursor:pointer;
 }
