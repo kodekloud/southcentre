@@ -57,7 +57,7 @@
            <div class="popup-body">
               <h3 class="holiday-popup-header">Enjoy the Southcentre Mall Holiday Gift Guide, and enter to win 1 of 10</h3>
                 <div class="holiday-divider-first"></div>
-                <p class="holiday-money"><span style="font-size:40px">$</span>1000</p>
+                <span class="holiday-money"><span style="font-size:40px">$</span>1000</span>
                 <p class="holiday-ds">HPLIDAY SHOPPING SPREES!</p>
                 <div class="holiday-divider-second"></div>
                  <div class="popup-form">
