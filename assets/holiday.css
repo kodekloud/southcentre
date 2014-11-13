@@ -18,7 +18,7 @@
     width:183px !important;
     height:23px !important;
     float:left;
-   margin-bottom:6px;
+   margin-bottom:6px !important;
 }
 .floater-left{
     float:left;
