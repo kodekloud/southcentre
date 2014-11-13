@@ -7,9 +7,7 @@
      font-family: ChronicleDisplay-Italic;
     font-size:12px;
 }
-.popup-form-div{
-    padding:0px;
-}
+
 .popup-form-div label{
     font-size:13px;
     color:black;
@@ -140,7 +138,7 @@
 }
 .popup-form form{
     display: block;
-    padding: 10px 0 10px 3%;
+  
     position: relative;
     text-align: left;
 }
