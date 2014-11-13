@@ -155,3 +155,9 @@
       position:absolute;
       
   }
+  
+  .holiday-popup-header{
+      font-size:28px;
+      color:black;
+         font-family: ChronicleDisplay-Italic;
+  }
