@@ -79,7 +79,7 @@
                         </div>
                   
                         <div class="floater-left agree-btn">
-                             <span><label for="agree_newsletter">Join our mailling list!</label><input type="checkbox" style="float:left; margin-right:3px;" id="agree_newsletter"> </span>
+                             <span><label style="float:left;" for="agree_newsletter">Join our mailling list!</label><input type="checkbox" style="float:left; margin-right:3px;" id="agree_newsletter"> </span>
                              
                              
                              <p> By opting in, you are agreeing to join the Southcentre Mall e-club</p>
