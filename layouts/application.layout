@@ -86,7 +86,7 @@
                         </div>
                         <div class="floater-left">
                             <label>Phone Number</label>
-                            <input class="holiday-typebox"  id="fieldEmail" name="cm-tylikj-tylikj" type="email" required />
+                            <input class="holiday-typebox"  id="phoneNumber" name="cm-tylikj-tylikj" type="email" required />
                         </div>
                         <div class="floater-left">
                             <label>E-mail Address</label> 
