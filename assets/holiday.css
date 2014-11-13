@@ -1,8 +1,4 @@
-.social-btn{
-    bottom: 35px;
-    position: absolute;
-    right: 0; 
-}
+
 .holiday-popup-footer{
      font-family: ChronicleDisplay-Italic;
     font-size:12px;
@@ -73,9 +69,7 @@
     font-size:20px;
     margin-bottom: 0px;
 }
-.stMainServices, .stHBubble{
-    height:25px !important;
-}
+
  .holiday-btn{
      font-family: ChronicleDeck-Roman;;
      font-size:13px;
@@ -154,6 +148,15 @@
     position: relative;
     text-align: left;
 }
+
+
+
+
+
+      .stMainServices, .stHBubble{
+          height:25px !important;
+          }
+       
 .title-gg{    
     font-size: 26px;     
     font-family: ChronicleDisplay-Italic;    
@@ -192,7 +195,7 @@
     font-weight:bold;font-size:14px;
 }
 
-.style-A, .style-B, .style-D,.style-C, .style-F {    
+.style-A, .style-B, .style-D,.style-C, .style-E, .style-F {    
     max-width:288px;      
     text-align:center;    
     margin-left:11px; 
@@ -206,10 +209,10 @@
 .image-C, .description-C{
   margin:0 auto;
   max-width:908px;
+  margin:11px;
 }
 .image-C img{
     width:100%;
-    margin-bottom:22px;
 }
 .style-D img{
     width:100%;
@@ -234,14 +237,13 @@
 }
 
   .main_content{
-      max-width:970px;
+   max-width:930px;
       margin:0 auto;
   }
   .gray_divider{
       float:left;
       width:100%;
   }
-
   .social-btn{
     bottom: 35px;
     position: absolute;
@@ -257,6 +259,5 @@
     margin-bottom:80px;    
 }
 section{
-    margin-bottom:20px;
+    margin-bottom:50px;
     }
-
