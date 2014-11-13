@@ -78,8 +78,8 @@
                             <input class="holiday-typebox"  id="fieldEmail" name="cm-tylikj-tylikj" type="email" required />
                         </div>
                   
-                        <div class="floater-left">
-                             <p><label style="font-size:13px; display: inline; font-weight: normal;" for="agree_newsletter">Join our mailling list!</label><input type="checkbox" style="margin-right:3px;" id="agree_newsletter"> </p>
+                        <div class="floater-left agree-btn">
+                             <p><label for="agree_newsletter">Join our mailling list!</label><input type="checkbox" style="margin-right:3px;" id="agree_newsletter"> </p>
                              <p> By opting in, you are agreeing to join the Southcentre Mall e-club</p>
           
                             <button id="submit" class="btn btn-primary holiday-btn">ENTER</button>
