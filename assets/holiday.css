@@ -63,7 +63,9 @@
  .holiday-btn{
      font-family: ChronicleDeck-Roman;;
      font-size:13px;
-     background-color:e70033;
+     background-color:#e70033;
+     width:109px;
+     height:23px;
  }      
 .popup-close{
     cursor:pointer;
