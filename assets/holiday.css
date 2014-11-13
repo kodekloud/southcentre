@@ -23,7 +23,9 @@
 }
 .floater-left{
     float:left;
-    
+}
+.agree-btn label{
+    width:120px;
 }
 .holiday-popup-header{
     font-size:28px;
