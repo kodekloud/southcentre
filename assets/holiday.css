@@ -14,8 +14,8 @@
     float:left;
 }
 .holiday-typebox{
-    width:183px;
-    height:23px;
+    width:183px !important;
+    height:23px !important;
    
 }
 .floater-left:{
