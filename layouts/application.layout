@@ -83,16 +83,18 @@
                         </div>
                   
                         <div>
+                             <p><label style="font-size:13px; display: inline; font-weight: normal;" for="agree_newsletter">Join our mailling list!</label><input type="checkbox" style="margin-right:3px;" id="agree_newsletter"> </p>
+                             <p> By opting in, you are agreeing to join the Southcentre Mall e-club</p>
+          
                             <button id="submit" class="btn btn-primary holiday-btn">ENTER</button>
                     	</div>
+                    
                     	<div class="clearfix"></div>
                     
                     </form>  
+                    <p class="holiday-popup-footer">Draw date Fri, Dec. 19, 2014, noon MST. See Guest Services for full details and rules & regulations.</p>
                </div>
-                    <p><input type="checkbox" style="margin-right:3px;" id="agree_newsletter"><label style="font-size:13px; display: inline; font-weight: normal;" for="agree_newsletter">I agree to receive newsletters from Halifax Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the 
-        <a href="/privacy_policy" target="_blank">Privacy Terms &amp; Conditions</a>.</label></p>
-           
-          
+                   
            </div>
       
            
