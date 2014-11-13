@@ -3,23 +3,26 @@
     position: absolute;
     right: 0; 
 }
-.holiday-dot-divider{
-   float: left;
-    width: 100%;
-    background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/9a65c1b2b2f04b74bde6d0f057d70551/dotted.png");
 
-    background-repeat: repeat-x;
-    height: 3px;
-    margin: 0 auto;
-    padding: 1em;
-
-}
 .holiday-popup-header{
     font-size:28px;
     color:black;
     text-align:center;
     font-family: ChronicleDisplay-Italic;
     margin-bottom:0px;
+}
+.holiday-money{
+    font-family: ChronicleDeck-Roman; 
+    font-size:80px;
+    color:black;
+    margin: 0 auto;
+    text-align: center;
+}
+.holiday-ds{
+    text-align:center;
+    font-family: ChronicleDeck-Roman; 
+    font-weight:bold;
+    font-size:20px;
 }
 .stMainServices, .stHBubble{
     height:25px !important;
@@ -54,7 +57,7 @@
     margin:0 auto;
     margin-top:180px;
 }
-.holiday-divider{
+.holiday-divider-first{
     background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/9a65c1b2b2f04b74bde6d0f057d70551/dotted.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -62,6 +65,15 @@
     margin: 0 auto;
     padding-top: 15px;
     padding-bottom:17px;
+}
+.holiday-divider-second{
+    background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/9a65c1b2b2f04b74bde6d0f057d70551/dotted.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1px;
+    margin: 0 auto;
+    padding-top: 17px;
+    padding-bottom:31px;
 }
 .popup-header{
        min-height: 16.4286px;
