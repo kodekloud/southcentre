@@ -1,0 +1,159 @@
+<style>
+  .social-btn{
+    bottom: 35px;
+    position: absolute;
+    right: 0; 
+  }
+.holiday-dot-divider{
+   float: left;
+    width: 100%;
+    background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/9a65c1b2b2f04b74bde6d0f057d70551/dotted.png");
+
+    background-repeat: repeat-x;
+    height: 3px;
+    margin: 0 auto;
+    padding: 1em;
+
+}
+      .stMainServices, .stHBubble{
+          height:25px !important;
+          }
+       
+.popup-close{
+    cursor:pointer;
+}
+.fixed {
+    background: none repeat scroll 0 0 #fff;
+    position: fixed;
+    top: 0;
+    width:95%;
+    z-index: 1000;
+}
+    .hidden-popup-bg {
+   background-color:rgba(0, 0, 0, 0.65);
+   height:100%;
+   width:100%;
+   position:fixed;
+   z-index:999999999;
+   display:none;
+}
+.hidden-popup-form {
+    background: none repeat scroll 0 0 #fff;
+    border: 6px solid #000;
+    margin: 7% auto;
+    width: 500px;
+}
+
+.popup-header{
+       min-height: 16.4286px;
+    padding: 15px;
+}
+.popup-body{
+    padding:20px;
+}
+.padding-left-none{
+    padding-left:0px;
+}
+.popup-form{
+      background: none repeat scroll 0 0 #fff;
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif;
+}
+.popup-form form{
+    display: block;
+    padding: 10px 0 10px 3%;
+    position: relative;
+    text-align: left;
+}
+.title-gg{    
+    font-size: 26px;     
+    font-family: ChronicleDisplay-Italic;    
+}
+.content-gg{    
+    font-family:Whitney-light;    
+    font-size:18px;    
+    margin-bottom:0px;    
+    width:288px;    
+}
+.type-gg{
+    margin:0 auto;
+    
+}
+.description-gg{     
+    font-family: ChronicleDeck-Roman;    
+    font-size: 14px;    
+    margin-bottom:0px;    
+    text-align:left;      
+    line-height:22px;      
+    margin-right:15px;
+}
+.description-C .description-gg{
+    display:inline-block;
+    
+}
+.description-C .store-gg{
+   margin-right:15px;
+    
+}
+.description-image{    
+    margin-top:12px;
+}
+.store-gg{
+    font-family: ChronicleDisplay-Italic;
+    font-weight:bold;font-size:14px;
+}
+
+.style-A, .style-B, .style-D,.style-C, .style-F {    
+    max-width:288px;      
+    text-align:center;    
+    margin-left:11px; 
+    margin-right:11px;   
+    margin:11px;
+    vertical-align:top;    
+    float:left;
+    position:relative;
+}
+  
+.image-C, .description-C{
+  margin:0 auto;
+  max-width:908px;
+}
+.image-C img{
+    width:100%;
+    margin-bottom:22px;
+}
+.style-D img{
+    width:100%;
+    margin:0 auto;
+    
+}
+
+.style-D{
+    max-width:598px;
+    height:auto;
+    float:left;
+    margin-right:11px;
+}
+.description-D{    max-width:288px;      text-align:center;    margin-left:11px; margin-right:11px;    vertical-align:top;    float:left;}
+
+.description-F{
+    height:328px;
+    margin-bottom:0px;
+}    
+.margin-top-none{
+    margin-top:0px;
+}
+
+  .main_content{
+      max-width:970px;
+      margin:0 auto;
+  }
+  .gray_divider{
+      float:left;
+      width:100%;
+  }
+  .pinterestBtn{
+      position:absolute;
+      
+  }
+</style>
