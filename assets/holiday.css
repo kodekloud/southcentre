@@ -25,8 +25,12 @@
 .floater-left{
     float:left;
 }
+.agree-btn{
+    margin-top:9px;
+}
 .agree-btn label{
     width:125px;
+    
 }
 #agree_newsletter{
     margin-bottom:8px;
