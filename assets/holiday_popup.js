@@ -10,7 +10,7 @@ function validateNewsletterPopup(){
         var firstName = $('#firstName').val();
         var lastName = $('#lastName').val();
         var name = firstName + " " + lastName;
-        $.('#fieldName').value(name);
+        $('#fieldName').value(name);
         return true;
     }
 }
