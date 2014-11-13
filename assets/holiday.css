@@ -16,6 +16,9 @@
 .holiday-typebox{
     width:183px;
     height:23px;
+   
+}
+.floater-left:{
     float:left;
 }
 .holiday-popup-header{
