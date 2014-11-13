@@ -184,68 +184,7 @@
 
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "f11a75cd-2e38-498d-9fe6-44ee2b91931d", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
- <div class="hidden-popup-bg">
-        <div class="visible-phone mobile-sign-up" style="display:none;">
-            <div style="background:#fff; width: 80%; margin: 10% auto;">
-              <div style="background:#333;" class="modal-header">
-                <button style="color:#fff;" aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-                <h3 style="color:#fff; text-align:center;" id="smModalLabel">Download<br> our app yet?</h3>
-              </div>
-              <div style="text-align:center;" class="modal-body">
-                <p>Get the latest fashions and trends, curated by HSC style experts, delivered straight to your mobile. The most fashionable iPhones are wearing it!</p>
-                
-                <div class="myhsccloset">
-            	    <div class="icon-myhsccloset-ico"></div><div class="icon-myhsccloset"></div>
-                </div>     
-                <a id="submit-mobile" href="https://itunes.apple.com/us/app/myhsccloset/id701538001?ls=1&amp;mt=8" class="getitnowbutton">Get it Now!</a>
-                <br><br>
-              </div>
-            </div>
-        </div>
-        <div class="hidden-popup-form hidden-phone">
-           <div class="popup-header">
-               <p onclick="close_popup();" class="popup-close pull-right">X</p>
-           </div>
-           <div class="popup-body">
-              <h3 style="color:#000; font-size: 34px; border-top: 2px solid; border-bottom:2px solid; padding:16px 8px 8px 8px; text-align:center; width:90%; margin:0px auto 35px auto; " id="lgModalLabel">Are you on <span style="font-family: AnneBonny-SemiBoldItalic; font-size: 38px;">The List?</span></h3>
-                <p style="font-size: 16px; margin-bottom: 35px; text-align: center;">Sales. Events. Fashion news. All kinds of can't-miss shopping info goes directly to those on <em>The List</em> first. Might want to get your name on it.</p>
-           
-                 <div class="popup-form">
-                   <form style="margin: 0px auto;" onsubmit="return validateNewsletterPopup()" class="popup-form-div"  id="newsletter_form"  action="http://mobilefringe.createsend.com/t/d/s/tylikj/"  method="post">
-                       
-                          <input id="fieldwkdij" name="cm-f-wkdij" type="hidden" />
-                           <input id="fieldwkdik" name="cm-f-wkdik" type="hidden" />
-                             <input id="fieldwkdiu" name="cm-f-wkdiu" type="hidden" />
-                             <input id="fieldwkddl" name="cm-f-wkddl" type="hidden" />
-                              <input id="fieldName" name="cm-name" type="hidden" />
-
-                        <div class="floater-left">
-                
-                        <input type="email"  required="" id="fieldEmail" name="cm-tylikj-tylikj" style="width: 290px; height: 33px; margin-bottom: 0px; padding-top: 6px; padding-bottom: 6px;">
-                        </div>	
-                            <button onclick="" style="width:20%; margin-left:13px; height: 32px; padding: 5px 15px; font-weight: bold; margin: 0px;" id="submit" class="btn btn-primary">Sign Up!</button>
-                    	<div class="clearfix"></div>
-                    	<div style="margin: 0px auto; margin-top:25px;" class="input-group">
-                        	<ul style="float:left; margin-right: 20px;">
-                        	<li><label for=""><input type="checkbox"  name="giftcard" id="giftcard" checked="checked">Gift Card Offers</label></li>
-                        	<li><label for=""><input type="checkbox"  name="contest" id="contest" checked="checked">Contests</label></li>
-                        	</ul>
-                        	<ul style="float:left; margin-right: 55px;">
-                        	<li><label for=""><input type="checkbox" name="sales" id="sales" checked="checked">Sales &amp; Events</label></li>
-                        	<li><label for=""><input type="checkbox"  name="advice" id="advice" checked="checked">Fashion Advice</label></li>
-                        	</ul>
-                    	</div>
-                    </form>  
-               </div>
-                    <p><input type="checkbox" style="margin-right:3px;" id="agree_newsletter"><label style="font-size:13px; display: inline; font-weight: normal;" for="agree_newsletter">I agree to receive newsletters from Halifax Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the 
-        <a href="/privacy_policy" target="_blank">Privacy Terms &amp; Conditions</a>.</label></p>
-           
-          
-           </div>
-      
-           
-       </div>
-    </div>
+ 
 
 <!-- Please call pinit.js only once per page -->
      <div class="main_content">
