@@ -25,7 +25,7 @@
     <link href="/application.css" rel="stylesheet">
     <!-- cookie jqeury -->
         <script src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/601617fe9ab691b1b62a66ac3ca3e8b7/jquery.cookie.js"></script>
-
+    <link href="/holiday.css"></link>
     
 
 </head>
