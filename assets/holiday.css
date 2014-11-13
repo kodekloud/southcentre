@@ -27,6 +27,11 @@
 .agree-btn label{
     width:120px;
 }
+.holiday-option{
+      font-family: WhitneyHTF-Book;
+    font-size:12pt;
+    color:black;
+}
 .holiday-popup-header{
     font-size:28px;
     color:black;
