@@ -61,18 +61,30 @@
                 <div class="holiday-divider-second"></div>
                  <div class="popup-form">
                    <form style="margin: 0px auto;" onsubmit="return validateNewsletterPopup()" class="popup-form-div"  id="newsletter_form"  action="http://mobilefringe.createsend.com/t/d/s/tylikj/"  method="post">
-                       
-                          <input id="fieldwkdij" name="cm-f-wkdij" type="hidden" />
-                           <input id="fieldwkdik" name="cm-f-wkdik" type="hidden" />
-                             <input id="fieldwkdiu" name="cm-f-wkdiu" type="hidden" />
-                             <input id="fieldwkddl" name="cm-f-wkddl" type="hidden" />
-                              <input id="fieldName" name="cm-name" type="hidden" />
-
+                         <div class="floater-left">
+                            <label>First Name</label> 
+                            <br>
+                            <input class="firstname-newsletter" id="firstName" name="firstName" type="text" required />
+                        </div>
                         <div class="floater-left">
-                
-                        <input type="email"  required="" id="fieldEmail" name="cm-tylikj-tylikj" style="width: 290px; height: 33px; margin-bottom: 0px; padding-top: 6px; padding-bottom: 6px;">
-                        </div>	
+                            <label>Last Name</label>
+                            <br>
+                            <input class="lastname-newsletter" id="lastName" name="lastName" type="text" required />
+                        </div>
+                        <div class="floater-left">
+                            <label>Phone Number</label>
+                            <br>
+                            <input class=""  id="fieldEmail" name="cm-tylikj-tylikj" type="email" required />
+                        </div>
+                        <div class="floater-left">
+                            <label>E-mail Address</label> 
+                            <br>
+                            <input class="email-newsletter"  id="fieldEmail" name="cm-tylikj-tylikj" type="email" required />
+                        </div>
+                  
+                        <div>
                             <button id="submit" class="btn btn-primary holiday-btn">ENTER</button>
+                    	</div>
                     	<div class="clearfix"></div>
                     
                     </form>  
