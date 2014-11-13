@@ -39,7 +39,8 @@
 .hidden-popup-form {
     background: none repeat scroll 0 0 #fff;
     border: 6px solid #000;
-    margin: 7% auto;
+    padding: 20px;
+    padding-top:32px;
     max-width: 640px;
     max-height:440px;
 }
