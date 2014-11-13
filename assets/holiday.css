@@ -28,9 +28,10 @@
     width:120px;
 }
 .holiday-option{
-      font-family: WhitneyHTF-Book;
+    font-family: WhitneyHTF-Book;
     font-size:12px;
     color:black;
+    float:left;
 }
 .holiday-popup-header{
     font-size:28px;
