@@ -1,18 +1,13 @@
 
 
 function validateNewsletterPopup(){
-    if ($("#agree_newsletter_page").prop("checked") != true){
-        alert("Please agree to the receiving newsletter.");
-        $("#agree_newsletter").focus();
-        return false;
-    }
-    else{
+
         var firstName = $('#firstName').val();
         var lastName = $('#lastName').val();
         var name = firstName + " " + lastName;
         $('#fieldName').value(name);
         return true;
-    }
+    
 }
 
  function getCookie(name) {
