@@ -87,10 +87,10 @@
     background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/9a65c1b2b2f04b74bde6d0f057d70551/dotted.png");
     background-position: center center;
     background-repeat: no-repeat;
-    height: 1px;
-    margin: 0 auto;
-    padding-top: 15px;
-    padding-bottom:17px;
+    height: 2px;
+    
+    margin-top: 15px;
+    margin-bottom:17px;
 }
 .holiday-divider-second{
     background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/9a65c1b2b2f04b74bde6d0f057d70551/dotted.png");
@@ -98,8 +98,8 @@
     background-repeat: no-repeat;
     height: 1px;
     margin: 0 auto;
-    padding-top: 17px;
-    padding-bottom:31px;
+    margin-top: 17px;
+    margin-bottom:31px;
 }
 .popup-header{
        min-height: 16.4286px;
