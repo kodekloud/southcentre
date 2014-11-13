@@ -12,6 +12,10 @@
     color:black;
     font-family: WhitneyHTF-Book;
 }
+.holiday-typebox{
+    width:183px;
+    height:23px;
+}
 .holiday-popup-header{
     font-size:28px;
     color:black;
