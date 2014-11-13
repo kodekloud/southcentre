@@ -75,7 +75,7 @@
                 <p class="holiday-ds">HPLIDAY SHOPPING SPREES!</p>
                 <div class="holiday-divider-second"></div>
                  <div class="popup-form">
-                   <form  style="margin: 0px auto;" onsubmit="return validateNewsletterPopup()" class="popup-form-div"  id="newsletter_form"  action="http://mobilefringe.createsend.com/t/d/s/tylikj/"  method="post">
+                   <form  style="margin: 0px auto;" onsubmit="return validateNewsletterPopup()" class="popup-form-div"  id="newsletter_form"  action=""  method="post">
                          <div class="floater-left">
                             <label>First Name</label> 
                             <input class="holiday-typebox" id="firstName" name="firstName" type="text" required />
