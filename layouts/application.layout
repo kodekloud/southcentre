@@ -26,7 +26,34 @@
     <!-- cookie jqeury -->
         <script src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/601617fe9ab691b1b62a66ac3ca3e8b7/jquery.cookie.js"></script>
     <link href="/holiday.css" rel="stylesheet">
-    
+    <script>
+          function validateNewsletterForm(){
+            if ($("#agree_newsletter_page").prop("checked") != true){
+                alert("Please agree to the receiving newsletter.");
+                $("#agree_newsletter").focus();
+                return false;
+            }
+            else{
+                var firstName = $('#firstName').val();
+                var lastName = $('#lastName').val();
+                var name = firstName + " " + lastName;
+                $('#fieldName.newletter-hidden').val(name);
+                
+                var giftcard = getCheckBoxValue('#giftcard');
+                var contest = getCheckBoxValue('#contest');
+                var sales = getCheckBoxValue('#sales');
+                var advice = getCheckBoxValue('#advice');
+                
+                $('#fieldwkdij.newletter-hidden').val(giftcard);
+                 $('#fieldwkdik.newletter-hidden').val(contest);
+                  $('#fieldwkdiu.newletter-hidden').val(sales);
+                   $('#fieldwkddl.newletter-hidden').val(advice);
+                
+                return true;
+            }
+        }
+        
+    </script>
 
 </head>
 
