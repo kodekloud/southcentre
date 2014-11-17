@@ -202,7 +202,7 @@ margin-top:0px;
     font-weight:bold;font-size:14px;
 }
 
-.style-A, .style-B, .style-D,.style-C, .style-E, .style-F {    
+.style-A, .style-B, .style-C, .style-E, .style-F {    
       
     text-align:center;    
     margin-left:11px; 
@@ -213,7 +213,16 @@ margin-top:0px;
     position:relative;
     max-width:288px;
 }
-  
+  .style-D{
+      max-width:598px;
+          text-align:center;    
+    margin-left:11px; 
+    margin-right:11px;   
+    margin:11px;
+    vertical-align:top;    
+    float:left;
+    position:relative;
+  }
 .image-C, .description-C{
   margin:0 auto;
   margin:11px;
