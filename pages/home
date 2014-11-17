@@ -124,6 +124,7 @@
                    renderContentBlocks('#content_kids_template','#kids',web_page_json);
                 function renderContentBlocks(template_id,html_id,web_page_json){
                     var divName = html_id.split('#')[1];
+                    alert(divName);
                     var item_list = [];
                     var rendered_list = [];
                     var template = $(template_id).html();
