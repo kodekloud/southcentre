@@ -41,6 +41,8 @@ h1 .current_item {
     height: 3px;
     margin: 0 auto;
     padding: 1em; 
+     float: left;
+    width: 100%;
   }
 label{
 margin-top:0px;    
