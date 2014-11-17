@@ -88,8 +88,4 @@ function removeContent(){
     $('#her').hide();
     $('#kid').hide();
 }
-$(function () {
-    $('img').pinit();
-    $('#her').hide();
-    $('#kids').hide();
-});
+
