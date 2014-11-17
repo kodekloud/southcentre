@@ -34,6 +34,14 @@ h1 .current_item {
 .floater-left{
     float:left;
 }
+  .gray-long{
+   background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/59ca012c41d508e31682ced6e6a0a106/dottedLong.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 3px;
+    margin: 0 auto;
+    padding: 1em; 
+  }
 label{
 margin-top:0px;    
 }
