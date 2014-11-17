@@ -75,34 +75,7 @@ function getCookie(name) {
 function close_popup(){
         $(".hidden-popup-bg").fadeOut();
     } 
-function pinterestButton(){
-     
-        $( "img.fr-fin" ).hover(
-          function() {
-                     var imgSrc = $(this).attr('src');
-             var url = window.location.href;
-            // var pinCode = '<a class="pinterestBtn" href="//www.pinterest.com/pin/create/button/?url=' + url+ '&media=' + imgSrc + '&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a>'
-     
-           
-            var pinCode ="<span class='social-btn'><span id='pinterestBtn'></span></span>";
-            $(this).after(pinCode);
-                     stWidget.addEntry({
-                 "service":"pinterest",
-                 "element":document.getElementById('pinterestBtn'),
-                 "url":url,
-                
-                 "type":"hcount",
-                
-                 "image":imgSrc
-                 
-            });
-            stButtons.locateElements();
-            
-          }, function() {
-           $( ".social-btn" ).remove();
-          }
-        );
-}
+
 function switchTap(divContent){
     var classDiv = "." + divContent;
     var idDiv = "#"+divContent;
