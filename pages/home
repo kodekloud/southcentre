@@ -91,17 +91,14 @@
     
         <script id="content_him_template" type="x-tmpl-mustache">
                 {{{content}}}
-                 <p class="gray_divider"></p>    
         </script>
 
          <script id="content_her_template" type="x-tmpl-mustache">
                 {{{content}}}
-                 <p class="gray_divider"></p>    
         </script>
 
         <script id="content_kids_template" type="x-tmpl-mustache">
                 {{{content}}}
-                 <p class="gray_divider"></p>    
         </script>
 
       <script>
