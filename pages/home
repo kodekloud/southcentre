@@ -158,7 +158,10 @@
     
 
 
-     
+         
+    $('img').pinit();
+    $('#her').hide();
+    $('#kids').hide();
 
  
     </script>
