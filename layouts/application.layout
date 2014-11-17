@@ -33,76 +33,7 @@
 </head>
 
 <body>
-<div class="hidden-popup-bg">
-        <div class="visible-phone mobile-sign-up" style="display:none;">
-            <div style="background:#fff; width: 80%; margin: 10% auto;">
-              <div style="background:#333;" class="modal-header">
-                <button style="color:#fff;" aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-                <h3 style="color:#fff; text-align:center;" id="smModalLabel">Download<br> our app yet?</h3>
-              </div>
-              <div style="text-align:center;" class="modal-body">
-                <p>Get the latest fashions and trends, curated by HSC style experts, delivered straight to your mobile. The most fashionable iPhones are wearing it!</p>
-                
-                <div class="myhsccloset">
-            	    <div class="icon-myhsccloset-ico"></div><div class="icon-myhsccloset"></div>
-                </div>     
-                <a id="submit-mobile" href="https://itunes.apple.com/us/app/myhsccloset/id701538001?ls=1&amp;mt=8" class="getitnowbutton">Get it Now!</a>
-                <br><br>
-              </div>
-            </div>
-        </div>
-        <div class="hidden-popup-form hidden-phone">
-           <div class="popup-header">
-               <p onclick="close_popup();" class="popup-close pull-right"></p>
-           </div>
-           <div class="popup-body">
-              <h3 class="holiday-popup-header">Enjoy the Southcentre Mall Holiday Gift Guide, and enter to win 1 of 10</h3>
-                <div class="holiday-divider-first"></div>
-                <p class="holiday-money"><span style="font-size:40px; vertical-align:30%;">$</span>1000</p>
-                <p class="holiday-ds">HOLIDAY SHOPPING SPREES!</p>
-                <div class="holiday-divider-second"></div>
-                 <div class="popup-form">
-                   <form  style="margin: 0px auto;" onsubmit="return validateNewsletterPopup()" class="popup-form-div"  id="newsletter_form"  action="http://mobilefringe.createsend.com/t/d/s/tjdklu/"  method="post">
-                           <input id="fieldName" name="cm-name" type="hidden" />
-                         <div class="floater-left">
-                            <label>First Name</label> 
-                            <input class="holiday-typebox" id="firstName" name="firstName" type="text" required />
-                          
-                            
-                        </div>
-                        <div class="floater-left">
-                            <label>Last Name</label>
-                            <input class="holiday-typebox" id="lastName" name="lastName" type="text" required />
-                        </div>
-                        <div class="floater-left">
-                            <label>Phone Number</label>
-                            <input class="holiday-typebox"  id="phoneNumber" name="cm-f-yhtlyu" type="text" required />
-                        </div>
-                        <div class="floater-left">
-                            <label>E-mail Address</label> 
-                            <input class="holiday-typebox"  id="fieldEmail" name="cm-tjdklu-tjdklu" type="email" required />
-                        </div>
-                  
-                        <div class="floater-left agree-btn">
-                             <div><label>Join our mailling list!</label><input type="checkbox" style="margin-right:3px; margin-top:4px;" name="cm-ol-juitdh" id="listjuitdh"> </div>
-                             
-                             
-                             <p class="holiday-option"> By opting in, you are agreeing to join the Southcentre Mall e-club</p>
-          
-                            <button id="submit" class="btn btn-primary holiday-btn">ENTER</button>
-                    	</div>
-                    
-                    	<div class="clearfix"></div>
-                    
-                    </form>  
-                    <p class=" holiday-popup-footer">Draw date Fri, Dec. 19, 2014, noon MST. See Guest Services for full details and rules & regulations.</p>
-               </div>
-                   
-           </div>
-      
-           
-       </div>
-    </div>
+
     <header class="container"><h1>Mall Maverick Blog</h1></header>
     <div class="container">
       {{yield}}
