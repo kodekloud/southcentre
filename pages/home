@@ -1,23 +1,87 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "f11a75cd-2e38-498d-9fe6-44ee2b91931d", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
- 
+<div class="hidden-popup-bg">
 
-<!-- Please call pinit.js only once per page -->
+        <div class="hidden-popup-form hidden-phone">
+           <div class="popup-header">
+               <p onclick="close_popup();" class="popup-close pull-right"></p>
+           </div>
+           <div class="popup-body">
+              <h3 class="holiday-popup-header">Enjoy the Southcentre Mall Holiday Gift Guide, and enter to win 1 of 10</h3>
+                <div class="holiday-divider-first"></div>
+                <p class="holiday-money"><span style="font-size:40px; vertical-align:30%;">$</span>1000</p>
+                <p class="holiday-ds">HOLIDAY SHOPPING SPREES!</p>
+                <div class="holiday-divider-second"></div>
+                 <div class="popup-form">
+                   <form  style="margin: 0px auto;" onsubmit="return validateNewsletterPopup()" class="popup-form-div"  id="newsletter_form"  action="http://mobilefringe.createsend.com/t/d/s/tjdklu/"  method="post">
+                           <input id="fieldName" name="cm-name" type="hidden" />
+                         <div class="floater-left">
+                            <label>First Name</label> 
+                            <input class="holiday-typebox" id="firstName" name="firstName" type="text" required />
+                          
+                            
+                        </div>
+                        <div class="floater-left">
+                            <label>Last Name</label>
+                            <input class="holiday-typebox" id="lastName" name="lastName" type="text" required />
+                        </div>
+                        <div class="floater-left">
+                            <label>Phone Number</label>
+                            <input class="holiday-typebox"  id="phoneNumber" name="cm-f-yhtlyu" type="text" required />
+                        </div>
+                        <div class="floater-left">
+                            <label>E-mail Address</label> 
+                            <input class="holiday-typebox"  id="fieldEmail" name="cm-tjdklu-tjdklu" type="email" required />
+                        </div>
+                  
+                        <div class="floater-left agree-btn">
+                             <div><label>Join our mailling list!</label><input type="checkbox" style="margin-right:3px; margin-top:18px;" name="cm-ol-juitdh" id="listjuitdh"> </div>
+                             
+                             
+                             <p class="holiday-option"> By opting in, you are agreeing to join the Southcentre Mall e-club</p>
+          
+                            <button id="submit" class=" holiday-btn">ENTER</button>
+                    	</div>
+                    
+                    	<div class="clearfix"></div>
+                    
+                    </form>  
+                    <p class=" holiday-popup-footer">Draw date Fri, Dec. 19, 2014, noon MST. See Guest Services for full details and rules & regulations.</p>
+               </div>
+                   
+           </div>
+      
+           
+       </div>
+    </div>
+
+
+
+
+
      <div class="main_content">
+      <h2 class="gift-guide-subtitle">Holiday Gift Guide, the best season has to offer</h2>
+        <h1><span  onclick="switchTap('him')" class="him current_item">HIM</span> <span style="color:#9b9b9b;">/</span> <span class="her" onclick="switchTap('her')">HER</span> <span  style="color:#9b9b9b;">/</span> <span  class="kids" onclick="switchTap('kids')">KIDS & TEENS</span></h1>
+         
        <div id="content_blocks">
                 <h2>Loading Contents...<img style="width:30px; height:30px;" src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/f94e1c94989b31e20c66f9d548566e4e/loading.gif"></h2>
         </div>
     </div>
         <script id="content_block_template" type="x-tmpl-mustache">
-        <div class="type-content">
-            <h1>{{title}}</h1>
+        <section class="Type-A">
         
                 {{{content}}}
             
                  <p class="gray_divider"></p>    
-        </div>
+        </section>
   
         </script>
 
