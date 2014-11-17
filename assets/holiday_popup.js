@@ -50,12 +50,6 @@
             event.stopPropagation();
         });     
         }
-        //pinterestButton();
-        
-        
-
-
-      
       });
       function validateNewsletterPopup(){
 
