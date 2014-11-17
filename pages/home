@@ -7,6 +7,12 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<script>
+    
+    $('img').pinit();
+    $('#her').hide();
+    $('#kids').hide();
+</script>
 
 <div class="hidden-popup-bg">
 
