@@ -131,6 +131,7 @@
                     Mustache.parse(template);
               
                      $.each( web_page_json.web_content_blocks , function( key, val ) {
+                        console.log(val.tag);
                        if (val.tag == divName){
                         item_list.push(val);
                        }
