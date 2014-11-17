@@ -1,4 +1,7 @@
 
+h1{
+    margin-bottom:50px;        
+}
 .holiday-popup-footer{
      font-family: ChronicleDisplay-Italic;
     font-size:12px;
@@ -26,13 +29,16 @@
 .floater-left{
     float:left;
 }
+label{
+margin-top:0px;    
+}
 .agree-btn{
     margin-top:5px;
     width:100%;
 }
 .agree-btn label{
     width:125px;
-    
+    margin-top:15px;
 }
 #agree_newsletter{
     margin-bottom:8px;
@@ -73,11 +79,12 @@
  .holiday-btn{
      font-family: ChronicleDeck-Roman;;
      font-size:13px;
-     background-color:#e70033;
+     background-color:#e70033 !important;
      width:109px;
      height:23px;
      border:none;
      padding-top:3px;
+     margin-bottom:15px;
  }      
 .popup-close{
     background-image:url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/49986ff249df53ba1e26eb3c6fefc753/close.png");
@@ -100,13 +107,13 @@
    position:fixed;
    z-index:999999999;
    display:none;
+   top:0;
 }
 .hidden-popup-form {
     background: none repeat scroll 0 0 #fff;
-
+    max-width:640px;
     padding: 20px;
     padding-top:10px;
-    max-width: 640px;
     padding-right:10px;
     margin:0 auto;
     margin-top:80px;
@@ -148,14 +155,9 @@
     position: relative;
     text-align: left;
 }
-
-
-
-
-
-      .stMainServices, .stHBubble{
-          height:25px !important;
-          }
+.stMainServices, .stHBubble{
+    height:25px !important;
+ }
        
 .title-gg{    
     font-size: 26px;     
@@ -165,7 +167,7 @@
     font-family:Whitney-light;    
     font-size:18px;    
     margin-bottom:0px;    
-    width:288px;    
+   
 }
 .type-gg{
     margin:0 auto;
@@ -196,7 +198,7 @@
 }
 
 .style-A, .style-B, .style-D,.style-C, .style-E, .style-F {    
-    max-width:288px;      
+      
     text-align:center;    
     margin-left:11px; 
     margin-right:11px;   
@@ -208,7 +210,6 @@
   
 .image-C, .description-C{
   margin:0 auto;
-  max-width:908px;
   margin:11px;
 }
 .image-C img{
@@ -221,16 +222,30 @@
 }
 
 .style-D{
-    max-width:598px;
+
     height:auto;
     float:left;
     margin-right:11px;
 }
-.description-D{    max-width:288px;      text-align:center;    margin-left:11px; margin-right:11px;    vertical-align:top;    float:left;}
+.holiday-description{
+max-width:288px;  
+margin-left:11px;
+margin-right:11px;
+float:left;
+text-align:center;
+
+}
+.description-D{   
+    text-align:center;    
+    margin-left:11px; 
+    margin-right:11px;    
+    vertical-align:top;    
+    float:left;
+}
 
 .description-F{
-    height:328px;
-    margin-bottom:0px;
+    max-height:328px;
+    margin-bottom:53px;
 }    
 .margin-top-none{
     margin-top:0px;
@@ -260,4 +275,35 @@
 }
 section{
     margin-bottom:50px;
+    padding-bottom:50px;
+    }
+    @media only screen and (max-width: 40em) {
+        
+.style-A, .style-B, .style-C, .style-E, .style-F {    
+            width:100%;  
+            margin:0;
+            margin-top:15px;
+            margin-bottom:15px;
+        }
+        .style-D{
+            margin-left:11px;
+            margin-top:15px;
+            margin-bottom:15px;
+        }
+        .description-C{
+        text-align:center;
+        }
+        .description-gg{
+            text-align:center;    
+        }
+        .title-gg{
+        margin-top:35px;
+        }
+        .holiday-description{
+        padding:23px;    
+        }
+        h1{
+            text-align:center;
+            font-size:1.5em;
+        }
     }
