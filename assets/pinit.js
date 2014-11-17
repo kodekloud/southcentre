@@ -17,7 +17,6 @@
 				wrap: '<span class="pinit"/>',
 				pageURL: document.URL
 			} 		
- 			alert('in pinti');
  			var options = $.extend(defaults, options);
 			var o = options; 
 			
