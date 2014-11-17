@@ -6,7 +6,6 @@
 *	License: http://redactorjs.com/license/	
 *	Usage: $('img').pinit();
 */
-$('img').pinit();
 (function($){
 	
     //Attach this new method to jQuery
