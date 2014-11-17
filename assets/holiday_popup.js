@@ -5,7 +5,7 @@
             var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
    
-        if (slug.match(/^\/?southcentre-holiday-gift-guide/)){
+        if (slug.match(/^\/?home/)){
 
             
             var visited = $.cookie("visited");
