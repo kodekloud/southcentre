@@ -211,6 +211,7 @@ margin-top:0px;
     vertical-align:top;    
     float:left;
     position:relative;
+    max-width:288px;
 }
   
 .image-C, .description-C{
