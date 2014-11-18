@@ -6,7 +6,9 @@ h1 .current_item {
     color: black;
     
 }
-
+h2{
+ max-width:800px;   
+}
 .holiday-popup-footer{
      font-family: ChronicleDisplay-Italic;
     font-size:12px;
