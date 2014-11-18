@@ -378,7 +378,9 @@ margin:-10px 0 0 -21px;
            margin: 0 auto;
        
         }
-        
+        .image-C, .description-C {
+            margin:0 auto;
+        }
         .fr-fin{
             margin-top:11px;
             margin-bottom:11px;
