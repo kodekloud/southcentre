@@ -175,10 +175,11 @@ margin-top:0px;
     height:25px !important;
  }
        
-.title-gg{    
+.title-gg, .footer-gg{    
     font-size: 26px;     
     font-family: ChronicleDisplay-Italic;    
 }
+
 .content-gg{    
     font-family:Whitney-light;    
     font-size:18px;    
@@ -317,9 +318,10 @@ text-align:center;
     font-size:1.2em;
 
 }
-.holiday-footer, .title-gg{
+.holiday-footer, .footer-gg{
     text-align:center;
 }
+
 .pinit {
     position:relative;
 	display:inline-block;
@@ -369,6 +371,9 @@ margin:-10px 0 0 -21px;
     }
     .holiday-footer{
         font-size:18px;
+    }
+    .footer-gg{
+        font-size:20px;
     }
     .holiday-link-her, .holiday-link-him, .holiday-link-kids {
 
