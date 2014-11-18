@@ -399,7 +399,8 @@ margin:-10px 0 0 -21px;
         margin-top:35px;
         }
         .holiday-description{
-        padding:23px;    
+        padding:23px;   
+        float:none;
         }
         h1{
             text-align:center;
