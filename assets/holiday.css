@@ -375,9 +375,8 @@ margin:-10px 0 0 -21px;
         
 .style-A, .style-B, .style-C, .style-E, .style-F {    
             width:100%;  
-            margin:0;
-            margin-top:15px;
-            margin-bottom:15px;
+            margin:0 auto;
+       
         }
         .style-D{
             margin-left:11px;
