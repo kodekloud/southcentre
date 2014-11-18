@@ -165,7 +165,7 @@ $('img').pinit();
         
  
  $("body").on('click','.holiday-link-her',function(){
-    alert('hi');
+    console.log('hi');
 });
  
 
