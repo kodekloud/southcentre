@@ -86,4 +86,9 @@
         
  
     });
+    $(window).load(function(){  
+//initialize after images are loaded  
+$('img').pinit();
+  
+}); 
     </script>
