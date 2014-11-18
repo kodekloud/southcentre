@@ -153,14 +153,14 @@
     });
     
 
-   $(function(){
-    
-    $('img').pinit();
+
+
+$(window).load(function(){  
+//initialize after images are loaded  
+$('img').pinit();
     $('#her').hide();
     $('#kids').hide();
-});
-
-
+}); 
         
  
     </script>
