@@ -168,16 +168,22 @@ $('img').pinit();
      $('#him').hide();
     $('#kids').hide();
     $('#her').show();
+    removeCurrent();
+    $(".her").addClass('current_item');
 });
   $("body").on('click','.holiday-link-him',function(){
      $('#him').show();
     $('#kids').hide();
     $('#her').hide();
+    removeCurrent();
+    $(".him").addClass('current_item');
 });
  $("body").on('click','.holiday-link-kids',function(){
      $('#him').hide();
     $('#kids').show();
     $('#her').hide();
+    removeCurrent();
+    $(".kids").addClass('current_item');
 });
 
     </script>
