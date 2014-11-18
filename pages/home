@@ -170,7 +170,7 @@ $('img').pinit();
     $('#her').show();
     removeCurrent();
     $(".her").addClass('current_item');
-     $(document).scrollTop( $("#toTop").offset().top );  
+     toHeader();
 });
   $("body").on('click','.holiday-link-him',function(){
      $('#him').show();
@@ -178,7 +178,7 @@ $('img').pinit();
     $('#her').hide();
     removeCurrent();
     $(".him").addClass('current_item');
-     $(document).scrollTop( $("#toTop").offset().top );  
+     toHeader();  
 });
  $("body").on('click','.holiday-link-kids',function(){
      $('#him').hide();
@@ -186,8 +186,10 @@ $('img').pinit();
     $('#her').hide();
     removeCurrent();
     $(".kids").addClass('current_item');
-     $(document).scrollTop( $("#toTop").offset().top );  
+   toHeader();
 });
-
+function toHeader(){
+     location.hash = "#toTop";
+}
     </script>
     
