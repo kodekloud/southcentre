@@ -367,6 +367,13 @@ margin:-10px 0 0 -21px;
           .gift-guide-subtitle{
       display:none;
     }
+    .holiday-footer{
+        font-size:18px;
+    }
+    .holiday-link-her, .holiday-link-him, .holiday-link-kids {
+
+    font-size: 20em;
+}
 .style-A, .style-B, .style-C, .style-E, .style-F {    
               max-width:288px;
            float:none;
