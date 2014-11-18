@@ -302,9 +302,13 @@ section{
     margin-bottom:50px;
     padding-bottom:50px;
     }
-.him, .her, .kids{
+.him, .her, .kids, .holiday-link, .holiday-italic{
     cursor:pointer;
     
+}
+.holiday-link{
+   font-family: ChronicleDisplay-Italic; 
+   color:#00aeef;
 }
 .pinit {
     position:relative;
