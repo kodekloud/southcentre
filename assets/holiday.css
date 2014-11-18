@@ -373,7 +373,7 @@ margin:-10px 0 0 -21px;
     @media only screen and (max-width: 40em) {
         
 .style-A, .style-B, .style-C, .style-E, .style-F {    
-              
+              max-width:288px;
            float:none;
            margin: 0 auto;
        
