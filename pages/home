@@ -189,7 +189,7 @@ $('img').pinit();
    toHeader();
 });
 function toHeader(){
-     location.hash = "#toTop";
+     location."#toTop";
 }
     </script>
     
