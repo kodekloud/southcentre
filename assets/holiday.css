@@ -306,10 +306,14 @@ section{
     cursor:pointer;
     
 }
-.holiday-link, .holiday-italic{
+.holiday-italic{
+    font-family: ChronicleDisplay-Italic; 
+       font-size:1.4em;
+}
+.holiday-link{
    font-family: ChronicleDisplay-Italic; 
    color:#00aeef;
-   font-size:1.5em;
+   font-size:1.4em;
 
 }
 .holiday-footer, .title-gg{
