@@ -163,8 +163,10 @@ $('img').pinit();
 }); 
         
  
- $( ".holiday-link-her" ).click(function() {
+ $(document).on('click','.holiday-link-her',function(){
     alert('hi');
 });
+ 
+
     </script>
     
