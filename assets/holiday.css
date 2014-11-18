@@ -390,6 +390,7 @@ margin:-10px 0 0 -21px;
         .style-D{
             margin: 0 auto;
             text-align:center;
+            float:none !important;
         }
         .description-C{
         text-align:center;
