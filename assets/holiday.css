@@ -302,11 +302,11 @@ section{
     margin-bottom:50px;
     padding-bottom:50px;
     }
-.him, .her, .kids, .holiday-link, .holiday-italic{
+.him, .her, .kids, .holiday-link{
     cursor:pointer;
     
 }
-.holiday-link{
+.holiday-link, .holiday-italic{
    font-family: ChronicleDisplay-Italic; 
    color:#00aeef;
 
