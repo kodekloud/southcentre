@@ -61,6 +61,7 @@
                      $.each( web_page_json.web_content_blocks , function( key, val ) {
                        
                        if (val.tags == lookbook && val.is_published){
+                           console.log(val);
                         item_list.push(val);
                        }
          
