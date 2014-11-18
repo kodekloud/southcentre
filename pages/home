@@ -71,7 +71,7 @@
      <div class="main_content">
       <h2 class="gift-guide-subtitle">Holiday Gift Guide, the best season has to offer</h2>
         <h1><span  onclick="switchTap('him')" class="him current_item">HIM</span> <span style="color:#9b9b9b;">/</span> <span class="her" onclick="switchTap('her')">HER</span> <span  style="color:#9b9b9b;">/</span> <span  class="kids" onclick="switchTap('kids')">KIDS & TEENS</span></h1>
-         
+         <a class="anchor" id="toTop" style="display:none;"></a>
        <div id="him">
                 <h2>Loading Contents...<img style="width:30px; height:30px;" src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/f94e1c94989b31e20c66f9d548566e4e/loading.gif"></h2>
         </div>
