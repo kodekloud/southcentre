@@ -169,7 +169,16 @@ $('img').pinit();
     $('#kids').hide();
     $('#her').show();
 });
- 
+  $("body").on('click','.holiday-link-him',function(){
+     $('#him').show();
+    $('#kids').hide();
+    $('#her').hide();
+});
+ $("body").on('click','.holiday-link-kids',function(){
+     $('#him').hide();
+    $('#kids').show();
+    $('#her').hide();
+});
 
     </script>
     
