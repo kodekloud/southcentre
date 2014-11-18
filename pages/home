@@ -189,8 +189,9 @@ $('img').pinit();
    toHeader();
 });
 function toHeader(){
-    console.log('hi');
-     location.hash = "toTop";
+ var new_position = $('#toTop).offset();
+    window.scrollTo(new_position.left,new_position.top);
+     
 }
     </script>
     
