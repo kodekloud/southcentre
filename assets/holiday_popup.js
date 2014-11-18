@@ -86,6 +86,6 @@ function removeCurrent(){
 function removeContent(){
     $('#him').hide();
     $('#her').hide();
-    $('#kid').hide();
+    $('#kids').hide();
 }
 
