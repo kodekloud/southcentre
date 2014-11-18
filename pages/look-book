@@ -3,10 +3,11 @@
      
      h1{
          color:black;
-         font-size:3em;
+         font-size:3.5em;
+         text-align:center;
      }
      h2{
-         max-width:800px;
+         max-width:100%;
      }
  </style>
  <div class="main_content">
