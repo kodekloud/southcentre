@@ -189,7 +189,7 @@ $('img').pinit();
    toHeader();
 });
 function toHeader(){
- var new_position = $('#toTop).offset();
+ var new_position = $('#toTop').offset();
     window.scrollTo(new_position.left,new_position.top);
      
 }
