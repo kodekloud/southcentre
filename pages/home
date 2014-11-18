@@ -163,7 +163,7 @@ $('img').pinit();
 }); 
         
  
- $(document).on('click','.holiday-link-her',function(){
+ $("body").on('click','.holiday-link-her',function(){
     alert('hi');
 });
  
