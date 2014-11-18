@@ -375,7 +375,7 @@ margin:-10px 0 0 -21px;
         
 .style-A, .style-B, .style-C, .style-E, .style-F {    
             width:100%;  
-            margin:0 auto;
+           
        
         }
         .style-D{
@@ -397,6 +397,9 @@ margin:-10px 0 0 -21px;
         }
         h1{
             text-align:center;
+            font-size:2.2em;
+        }
+        h2{
             font-size:1.5em;
         }
     }
