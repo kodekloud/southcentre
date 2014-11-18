@@ -31,7 +31,7 @@
              		bookmark = 'http://pinterest.com/pin/create/bookmarklet/?media=' + encodeURI(pi_media) + '&url=' + encodeURI(pi_url) + '&is_video=' + encodeURI(pi_isvideo) + '&description=' + encodeURI(pi_desc);
 					
 				var eHeight = e.outerHeight();				
-				console.log(e.scrollHeight);
+				console.log(e.height());
              		e.wrap(o.wrap);
              		e.after('<span class="pinit-overlay" style="height: ' + eHeight + 'px"><a href="' + bookmark + '" class="pinit-button">Pin It</a><span class="fb-like" data-href="'+ pi_media+'" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></span></span>');
 				
