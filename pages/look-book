@@ -12,6 +12,10 @@
          font-size:2.0em;
          margin-top:15px;
      }
+     .holiday-style-F{
+         height:328px;
+         margin-bottom:0px;
+     }
  </style>
  <div class="main_content">
  <h1>A SEASON WORTH CELEBRATING</h1>
