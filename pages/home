@@ -189,6 +189,7 @@ $('img').pinit();
    toHeader();
 });
 function toHeader(){
+    alert('hi');
      location.hash = "toTop";
 }
     </script>
