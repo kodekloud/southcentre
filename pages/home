@@ -150,13 +150,15 @@
       
         
  
- $('img').pinit();
-    $('#her').hide();
-    $('#kids').hide();
     });
     
 
-   
+   $(function(){
+    
+    $('img').pinit();
+    $('#her').hide();
+    $('#kids').hide();
+});
 
 
         
