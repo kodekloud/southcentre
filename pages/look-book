@@ -5,6 +5,7 @@
          color:black;
          font-size:3.0em;
          text-align:center;
+         margin-bottom:0px;
      }
      .gift-guide-subtitle{
          max-width:100%;
