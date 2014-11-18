@@ -163,5 +163,8 @@ $('img').pinit();
 }); 
         
  
+ $( ".holiday-linker-her" ).click(function() {
+    alert('hi');
+});
     </script>
     
