@@ -130,7 +130,7 @@
               
                      $.each( web_page_json.web_content_blocks , function( key, val ) {
                        
-                       if (val.tags == divName && is_published){
+                       if (val.tags == divName && val.is_published){
                         item_list.push(val);
                        }
          
