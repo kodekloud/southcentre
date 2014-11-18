@@ -163,7 +163,7 @@ $('img').pinit();
 }); 
         
  
- $( ".holiday-linker-her" ).click(function() {
+ $( ".holiday-link-her" ).click(function() {
     alert('hi');
 });
     </script>
