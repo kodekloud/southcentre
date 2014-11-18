@@ -388,7 +388,8 @@ margin:-10px 0 0 -21px;
             max-width:288px;
         }
         .style-D{
-       
+            margin: 0 auto;
+            text-align:center;
         }
         .description-C{
         text-align:center;
