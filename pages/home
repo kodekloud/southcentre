@@ -155,7 +155,7 @@
     
 
     $('img').pinit();
-    //$('#her').hide();
+    $('#her').hide();
     $('#kids').hide();
 
 
