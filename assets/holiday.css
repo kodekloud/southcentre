@@ -366,6 +366,32 @@ margin:-10px 0 0 -21px;
     bottom:15px;
     display:none;
 }
+
+  .look-book h1{
+         color:black;
+         font-size:3.2em;
+         text-align:center;
+         margin-bottom:0px;
+     }
+     .look-book .gift-guide-subtitle{
+         max-width:100%;
+         font-size:1.8em;
+         margin-top:15px;
+     }
+    .look-book .holiday-style-F{
+         height:328px;
+         margin-bottom:0px;
+     }
+       @media only screen and (max-width: 40em) {
+ 
+       .look-book h1{
+            text-align:center;
+            font-size:2.2em;
+        }
+       .look-book h2{
+            font-size:1.5em;
+        }
+    }
     @media only screen and (max-width: 40em) {
           .gift-guide-subtitle{
       display:none;
