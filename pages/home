@@ -164,7 +164,7 @@ $('img').pinit();
 }); 
         
  
- $("body").on('click','.holiday-link-her',function(){
+ $(document).on('click','.holiday-link-her',function(){
      $('#him').hide();
     $('#kids').hide();
     $('#her').show();
@@ -172,7 +172,7 @@ $('img').pinit();
     $(".her").addClass('current_item');
      toHeader();
 });
-  $("body").on('click','.holiday-link-him',function(){
+  $(document).on('click','.holiday-link-him',function(){
      $('#him').show();
     $('#kids').hide();
     $('#her').hide();
@@ -180,7 +180,7 @@ $('img').pinit();
     $(".him").addClass('current_item');
      toHeader();  
 });
- $("body").on('click','.holiday-link-kids',function(){
+ $(document).on('click','.holiday-link-kids',function(){
      $('#him').hide();
     $('#kids').show();
     $('#her').hide();
