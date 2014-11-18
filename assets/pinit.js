@@ -12,7 +12,7 @@
     $.fn.extend({ 
          
         pinit: function(options) {
- 
+            alert('inpint');
 			var defaults = {
 				wrap: '<span class="pinit"/>',
 				pageURL: document.URL
