@@ -376,12 +376,13 @@ margin:-10px 0 0 -21px;
             width:100%;  
            float:none;
            margin: 0 auto;
-           
        
         }
+        
         .fr-fin{
             margin-top:11px;
             margin-bottom:11px;
+            max-width:288px;
         }
         .style-D{
             margin-left:11px;
@@ -398,9 +399,9 @@ margin:-10px 0 0 -21px;
         margin-top:35px;
         }
         .holiday-description{
-        padding:23px;   
-        float:none;
-        margin:0 auto;
+            padding:23px;   
+            float:none;
+            margin:0 auto;
         }
         h1{
             text-align:center;
