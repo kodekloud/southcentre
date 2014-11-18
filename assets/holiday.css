@@ -309,6 +309,10 @@ section{
 .holiday-link{
    font-family: ChronicleDisplay-Italic; 
    color:#00aeef;
+
+}
+.holiday-footer{
+    text-align:center;
 }
 .pinit {
     position:relative;
