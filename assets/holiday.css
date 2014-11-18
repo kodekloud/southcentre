@@ -364,7 +364,9 @@ margin:-10px 0 0 -21px;
     display:none;
 }
     @media only screen and (max-width: 40em) {
-        
+          .gift-guide-subtitle{
+      display:none;
+    }
 .style-A, .style-B, .style-C, .style-E, .style-F {    
               max-width:288px;
            float:none;
@@ -401,9 +403,10 @@ margin:-10px 0 0 -21px;
             margin:0 auto;
             
         }
+       
         h1{
             text-align:center;
-            font-size:2.2em;
+            font-size:1.0em;
         }
         h2{
             font-size:1.5em;
