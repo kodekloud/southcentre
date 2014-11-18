@@ -310,7 +310,7 @@ section{
     font-family: ChronicleDisplay-Italic; 
     font-size:1.2em;
 }
-.holiday-link{
+.holiday-link-her, .holiday-link-him, .holiday-link-kids{
    font-family: ChronicleDisplay-Italic; 
    color:#00aeef;
     font-size:1.2em;
