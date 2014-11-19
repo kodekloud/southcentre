@@ -49,9 +49,9 @@ h2{
     background-repeat: no-repeat;
     height: 3px;
     margin: 0 auto;
-    padding-bottom: 11px; 
-    padding-top: 55px; 
-     float: left;
+    margin-bottom: 11px; 
+    margin-top: 55px; 
+    float: left;
     width: 100%;
   }
 label{
