@@ -381,12 +381,12 @@ margin:-10px 0 0 -21px;
          color:black;
          font-size:3.2em;
          text-align:center;
-         margin-bottom:0px !important;
-         margin-top:0px !important;
+         margin-bottom:0px;
+         margin-top:0px;
      }
       .look-book h2{
         margin-bottom:0px;
-        margin-top:70px;
+      
      }
      .footer{
          float:left;
