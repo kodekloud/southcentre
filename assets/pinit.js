@@ -42,7 +42,6 @@
 				$('.pinit').mouseenter(function () {
 					$(this).children('.pinit-overlay').fadeIn(200);
                   $(this).find('.fb-like').show();
-                  console.log($(this).find('.fb-like'));
 				}).mouseleave(function () {
 					$(this).children('.pinit-overlay').fadeOut(200);
                      $(this).find('.fb-like').show();
