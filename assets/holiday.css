@@ -435,8 +435,13 @@ margin:-10px 0 0 -21px;
         .image-C, .description-C {
             margin:0 auto;
             text-align:center;
-            padding-top:0px;
+          
         }
+        .image-C img {
+    padding-bottom: 0px;
+    padding-top: 0px;
+ 
+}
         .fr-fin{
             margin-top:11px;
             margin-bottom:11px;
