@@ -42,10 +42,15 @@
 				
 				$('.pinit').mouseenter(function () {
 					$(this).children('.pinit-overlay').fadeIn(200);
-                  $(this).find('.fb-like').fadeIn(200);
+                      $(this).find('.fb-like').fadeIn(200,function(){
+                        FB.XFBML.parse();
+                    });
 				}).mouseleave(function () {
 					$(this).children('.pinit-overlay').fadeOut(200);
-                     $(this).find('.fb-like').fadeOut(200);
+                     
+                      $(this).find('.fb-like').fadeOut(200,function(){
+                        FB.XFBML.parse();
+                    });
 				});
 
 				
