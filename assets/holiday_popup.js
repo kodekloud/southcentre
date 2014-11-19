@@ -7,7 +7,7 @@
    
         if (slug.match(/^\/?southcentre-holiday-gift-guide/)){
 
-            
+            alert('hi');            
             var visited = $.cookie("visited");
             var winwidth = $(window).width();
             if(visited == null){ visited = 1; $.cookie('visited', visited, { expires: 7 }); }
