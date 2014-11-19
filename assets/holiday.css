@@ -470,7 +470,8 @@ margin:-10px 0 0 -21px;
             padding:10px;   
             float:none;
             margin:0 auto;
-            
+            height:auto;
+            margin-bottom:22px;
         }
        
         h1{
