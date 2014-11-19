@@ -259,7 +259,8 @@ margin-top:0px;
 }
 
 .holiday-description{
-max-width:288px;  
+max-width:288px; 
+height:378px;
 margin-left:11px;
 margin-right:11px;
 float:left;
