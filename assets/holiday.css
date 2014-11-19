@@ -257,6 +257,7 @@ margin-top:0px;
     float:left;
     margin-right:11px;
 }
+
 .holiday-description{
 max-width:288px;  
 margin-left:11px;
@@ -264,6 +265,9 @@ margin-right:11px;
 float:left;
 text-align:center;
 
+}
+.holiday-description p {
+     display: inline-block;
 }
 .description-D{   
     text-align:center;    
