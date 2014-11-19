@@ -478,7 +478,13 @@ margin:-10px 0 0 -21px;
             height:auto;
             margin-bottom:11px;
         }
-       
+         .look-book h1{
+      
+         padding-top:35px;
+     }
+       .look-book h2{
+        line-height:1em;
+     }
         h1{
             text-align:center;
             font-size:1.3em;
