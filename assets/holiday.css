@@ -400,10 +400,7 @@ margin:-10px 0 0 -21px;
          height:328px;
          margin-bottom:0px;
      }
-       @media only screen and (max-width: 40em) {
- 
-   
-    }
+
     @media only screen and (max-width: 40em) {
             .look-book h1{
             text-align:center;
@@ -438,6 +435,7 @@ margin:-10px 0 0 -21px;
         .image-C, .description-C {
             margin:0 auto;
             text-align:center;
+            padding-top:0px;
         }
         .fr-fin{
             margin-top:11px;
