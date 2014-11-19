@@ -387,15 +387,17 @@ margin:-10px 0 0 -21px;
      }
        @media only screen and (max-width: 40em) {
  
-       .look-book h1{
+   
+    }
+    @media only screen and (max-width: 40em) {
+            .look-book h1{
             text-align:center;
-            font-size:2.2em;
+            font-size:2.0em;
         }
        .look-book h2{
             font-size:1.5em;
+            display:block !important;
         }
-    }
-    @media only screen and (max-width: 40em) {
           .gift-guide-subtitle{
       display:none;
     }
