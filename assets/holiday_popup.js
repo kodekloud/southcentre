@@ -31,10 +31,10 @@
                      $(".hidden-popup-bg").show();
                 }
                 visited++;
-                $.cookie('visited', visited, { expires: 7 });
+                $.cookie('visited', visited);
             } else {
                 visited++;
-                $.cookie('visited', visited, { expires: 7 });
+                $.cookie('visited', visited);
                 return false;
             } 
             
