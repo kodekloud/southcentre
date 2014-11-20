@@ -409,7 +409,7 @@ margin:-10px 0 0 -21px;
         }
     @media only screen and (max-width: 40em) {
         .mobile-show{
-            display:inline !important;
+            display:inline-block !important;
         }
             .look-book h1{
             text-align:center;
