@@ -404,8 +404,13 @@ margin:-10px 0 0 -21px;
          height:328px;
          margin-bottom:0px;
      }
-
+   .mobile-show{
+            display:none;
+        }
     @media only screen and (max-width: 40em) {
+        .mobile-show{
+            display:inline;
+        }
             .look-book h1{
             text-align:center;
             font-size:2.0em;
