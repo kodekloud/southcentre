@@ -3,7 +3,7 @@
     src: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/6fa234292be32f532b2821a784dc4c8b/ChronicleDeck-BoldItalic.ttf");
 }
 
-#him h1, #her h1, #kids h1 {
+.holiday-gift-guide h1 {
     margin-bottom:20px;     
     color:#9b9b9b;
     margin-top:0px;
@@ -12,7 +12,7 @@ h1 .current_item {
     color: black;
     
 }
-#him h2, #her h2, #kids h2{
+.holiday-gift-guide h2{
  max-width:800px;   
  margin-bottom:0px;
 }
@@ -294,7 +294,7 @@ text-align:center;
    max-width:930px;
       margin:0 auto;
   }
-  .gray_divider{
+  .holiday-gift-guide .gray_divider{
       float:left;
       width:100%;
   }
