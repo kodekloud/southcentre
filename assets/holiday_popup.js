@@ -9,17 +9,16 @@
 
                    
             var visited = $.cookie("visited");
-            console.log(visited);
             var winwidth = $(window).width();
             if(visited == null){ visited = 1; $.cookie('visited', visited, { expires: 7 }); }
             $( "#submit" ).mouseup(function() {
                 visited = 100; 
-                $.cookie('visited', visited, { expires: 7 });
+                $.cookie('visited', visited, { expires: 30 });
             });
             
             $( "#submit-mobile").bind('touchstart mousedown', function(event){
                   visited = 100; 
-                $.cookie('visited', visited, { expires: 7 });
+                $.cookie('visited', visited, { expires: 30 });
             
             });
      
@@ -31,10 +30,10 @@
                      $(".hidden-popup-bg").show();
                 }
                 visited++;
-                $.cookie('visited', visited);
+                $.cookie('visited', visited, { expires: 30 });
             } else {
                 visited++;
-                $.cookie('visited', visited);
+                $.cookie('visited', visited, { expires: 30 });
                 return false;
             } 
             
