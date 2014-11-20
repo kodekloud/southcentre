@@ -18,7 +18,7 @@
 			} 		
  			var options = $.extend(defaults, options);
 			var o = options; 
-			
+			alert('hi');
             //Iterate over the current set of matched elements
             return this.each(function() {
 				alert(this);
