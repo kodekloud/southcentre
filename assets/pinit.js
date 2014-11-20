@@ -46,7 +46,7 @@
     
     // 	$(this).children('.pinit-overlay').show();
     //               $(this).find('.fb-like').show();
-                   FB.XFBML.parse();
+                
                    
 				}).mouseleave(function () {
 					$(this).children('.pinit-overlay').fadeOut(200);
