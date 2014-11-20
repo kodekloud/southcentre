@@ -40,19 +40,19 @@
 				});     
 				
 				$('.pinit').mouseenter(function () {
-				// 	$(this).children('.pinit-overlay').fadeIn(200);
-    //               $(this).find('.fb-like').fadeIn(200);
+					$(this).children('.pinit-overlay').fadeIn(200);
+                  $(this).find('.fb-like').fadeIn(200);
     
-    	$(this).children('.pinit-overlay').show();
-                  $(this).find('.fb-like').show();
+    // 	$(this).children('.pinit-overlay').show();
+    //               $(this).find('.fb-like').show();
                    FB.XFBML.parse();
                    
 				}).mouseleave(function () {
-				// 	$(this).children('.pinit-overlay').fadeOut(200);
-    //                  $(this).find('.fb-like').fadeOut(200);
+					$(this).children('.pinit-overlay').fadeOut(200);
+                     $(this).find('.fb-like').fadeOut(200);
     
-    	$(this).children('.pinit-overlay').hide();
-                     $(this).find('.fb-like').hide();
+    // 	$(this).children('.pinit-overlay').hide();
+    //                  $(this).find('.fb-like').hide();
                   
 				});
 
