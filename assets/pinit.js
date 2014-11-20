@@ -7,7 +7,6 @@
 *	Usage: $('img').pinit();
 */
 (function($){
-	alert('in pinit');
     //Attach this new method to jQuery
     $.fn.extend({ 
          
