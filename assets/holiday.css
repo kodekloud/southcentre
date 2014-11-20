@@ -294,7 +294,7 @@ text-align:center;
    max-width:930px;
       margin:0 auto;
   }
-  .holiday-gift-guide .gray_divider{
+  .holiday-gift-guide .gray_divider, .look-book .gray_divider{
       float:left;
       width:100%;
   }
