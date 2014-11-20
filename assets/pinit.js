@@ -18,10 +18,10 @@
 			} 		
  			var options = $.extend(defaults, options);
 			var o = options; 
-			alert('hi');
+	
             //Iterate over the current set of matched elements
             return this.each(function() {
-				alert(this);
+				
              	var e = $(this),
              		pi_media = e.data('media') ? e.data('media') : e[0].src,
              		pi_url = o.pageURL,
