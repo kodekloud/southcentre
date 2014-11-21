@@ -271,7 +271,7 @@ text-align:center;
 
 }
 .holiday-description p {
-     display: inline-block;
+     display: block;
 }
 .description-D{   
     text-align:center;    
