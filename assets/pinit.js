@@ -31,7 +31,6 @@
 					
 				var eHeight = e.outerHeight();	
 				
-				console.log(this.height);
              		e.wrap(o.wrap);
              	//	e.after('<span class="pinit-overlay" style="height: ' + eHeight + 'px"><a href="' + bookmark + '" class="pinit-button">Pin It</a><span class="fb-like" data-href="'+ pi_url+'" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></span></span>');
 				    e.after('<span class="pinit-overlay" style="height: ' + eHeight + 'px"><iframe class="fb-like" src="//www.facebook.com/plugins/like.php?href='+ pi_url+ '&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe><a href="' + bookmark + '" class="pinit-button">Pin It</a></span>');
