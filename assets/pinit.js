@@ -43,7 +43,7 @@
 				$('.pinit').mouseenter(function () {
 					$(this).children('.pinit-overlay').fadeIn(200);
                   $(this).find('.fb-like').fadeIn(200);
-    
+                FB.XFBML.parse();
     // 	$(this).children('.pinit-overlay').show();
     //               $(this).find('.fb-like').show();
                 
@@ -51,7 +51,7 @@
 				}).mouseleave(function () {
 					$(this).children('.pinit-overlay').fadeOut(200);
                      $(this).find('.fb-like').fadeOut(200);
-    
+                    
     // 	$(this).children('.pinit-overlay').hide();
     //                  $(this).find('.fb-like').hide();
                   
