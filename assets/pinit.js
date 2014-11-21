@@ -34,7 +34,7 @@
 				//console.log(eHeight);
              		e.wrap(o.wrap);
              	//	e.after('<span class="pinit-overlay" style="height: ' + eHeight + 'px"><a href="' + bookmark + '" class="pinit-button">Pin It</a><span class="fb-like" data-href="'+ pi_url+'" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></span></span>');
-				    e.after('<span class="pinit-overlay" style="height: ' + eHeight + 'px"><a href="' + bookmark + '" class="pinit-button">Pin It</a><iframe src="//www.facebook.com/plugins/like.php?href="' + pi_url+ '"&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe></span>');
+				    e.after('<span class="pinit-overlay" style="height: ' + eHeight + 'px"><a href="' + bookmark + '" class="pinit-button">Pin It</a></span>');
 				 
 				$('.pinit .pinit-button').on('click', function () {				
 					window.open($(this).attr('href'), 'Pinterest', 'width=632,height=253,status=0,toolbar=0,menubar=0,location=1,scrollbars=1');				
