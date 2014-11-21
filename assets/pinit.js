@@ -34,7 +34,7 @@
              		e.wrap(o.wrap);
              		e.after('<span class="pinit-overlay" style="height: ' + eHeight + 'px"><a href="' + bookmark + '" class="pinit-button">Pin It</a><span class="fb-like" data-href="'+ pi_url+'" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></span></span>');
 				//    e.after('<span class="pinit-overlay" style="height: ' + eHeight + 'px"><a href="' + bookmark + '" class="pinit-button">Pin It</a><span class="st_fblike_hcount" displayText="Facebook Like"></span></span>');
-				
+				  FB.XFBML.parse();
 				$('.pinit .pinit-button').on('click', function () {				
 					window.open($(this).attr('href'), 'Pinterest', 'width=632,height=253,status=0,toolbar=0,menubar=0,location=1,scrollbars=1');				
 					return false;
@@ -43,7 +43,7 @@
 				$('.pinit').mouseenter(function () {
 					$(this).children('.pinit-overlay').fadeIn(200);
                   $(this).find('.fb-like').fadeIn(200);
-                FB.XFBML.parse();
+              
     // 	$(this).children('.pinit-overlay').show();
     //               $(this).find('.fb-like').show();
                 
