@@ -92,19 +92,20 @@
       max-width:683px;
   }
  .style-G{
+    display:inline-block;
     max-width: 394px;
     padding-left:11px; 
     vertical-align:top;    
-    float:left;
  }
  
  .description-G{
+    display:inline-block;
     max-width:288px;    
     height:600px;
     text-align:center;    
     margin:11px;    
     vertical-align:middle;    
-    float:left;
+    
  }
  
  .description-G p{
