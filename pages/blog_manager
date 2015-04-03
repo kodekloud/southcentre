@@ -87,7 +87,6 @@
   
  .style-G{
     max-width: 394px;
-    text-align:left;    
     padding-left:11px; 
     padding-right:11px;   
     vertical-align:middle;    
