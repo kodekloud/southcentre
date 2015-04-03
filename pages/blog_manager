@@ -38,6 +38,7 @@
     float:left;
 }
   
+
 .image-C, .description-C{
   margin:0 auto;
   max-width:908px;
@@ -82,6 +83,17 @@
     margin: 0 auto;
     padding: 1em; 
   }
+  
+  
+ .style-G{
+    max-width: 394px;
+    text-align:left;    
+    padding-left:11px; 
+    padding-right:11px;   
+    vertical-align:middle;    
+    float:left;
+ }
+ 
 </style>
 
 
