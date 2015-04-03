@@ -111,6 +111,11 @@
      vertical-align:middle;
  }
  
+ .style-H{
+     max-width:908px;
+     margin:0 auto;
+ }
+ 
 </style>
 
 
