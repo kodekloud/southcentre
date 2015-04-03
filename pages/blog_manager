@@ -58,7 +58,10 @@
     float:left;
     margin-right:11px;
 }
-.description-D{    max-width:288px;      text-align:center;    margin:11px;    vertical-align:top;    float:left;}
+.description-D{    
+    max-width:288px;      text-align:center;    margin:11px;    vertical-align:top;    float:left;
+    
+}
 
 .description-F{
     height:328px;
@@ -89,6 +92,14 @@
     max-width: 394px;
     padding-left:11px; 
     padding-right:11px;   
+    vertical-align:top;    
+    float:left;
+ }
+ 
+ .description-G{
+    max-width:288px;      
+    text-align:center;    
+    margin:11px;    
     vertical-align:middle;    
     float:left;
  }
