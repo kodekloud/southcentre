@@ -90,12 +90,12 @@
   .container-G{
       margin:0 auto;
       max-width:683px;
+      vertical-align:middle;
   }
  .style-G{
     display:inline-block;
     max-width: 394px;
     padding-left:11px; 
-    vertical-align:top;    
  }
  
  .description-G{
@@ -104,7 +104,6 @@
     height:600px;
     text-align:center;    
     margin:11px;    
-    vertical-align:middle;    
     
  }
  
