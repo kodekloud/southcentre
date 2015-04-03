@@ -14,3 +14,67 @@
 
 </style>
 
+<!-- typeG CONTENT BLOCK START-->    
+<section id="editor" class="froala-element">
+  <a href="#" style="font-size:20px;display:none" id="content_block_551e95946e6f641366000000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_551e95946e6f641366000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
+  <div id='edit_551e95946e6f641366000000'>
+	  <%=content_block_551e95946e6f641366000000%>
+  </div>
+  <script>
+      $(function(){
+		if (typeof $('#edit_551e95946e6f641366000000').editable != 'undefined') {
+			$('#content_block_551e95946e6f641366000000').show();
+	        $('#edit_551e95946e6f641366000000').editable({
+				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
+				inlineMode: false,
+                paragraphy: true,
+                alwaysBlank: true,
+                toolbarFixed: true,
+                imageMove: true,
+                saveURL: '/web_pages/save_content_block',
+                saveRequestType: 'POST',
+	            saveParams: {name:'typeG', id: '551e95946e6f641366000000',web_page_id: '551e949c6e6f645c02000000',authenticity_token: '<%=form_authenticity_token%>'},
+	            autosave: false,
+				minHeight: 200,
+				imageUploadToS3: {
+                    bucket: 'kodekloud',
+                    region: 's3',
+                    keyStart: 'site/545bdd066e6f645bae000000/853202a3747be74c85f4b9e788a13d94/${filename}',
+					callback: function (url, key) {
+                      $.ajax({
+                            url : "../add_upload_from_content_block",
+                            type: "POST",
+                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
+                            success: function(data, textStatus, jqXHR)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            },
+                            error: function (jqXHR, textStatus, errorThrown)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            }
+                        });
+                    },
+                    params: {
+					  utf8: '&#x2713;',
+                      acl: 'public-read', // ACL according to Amazon Documentation.
+                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
+                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OS0wMS0xNVQxMzoyODo1Mi4yNTFaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
+                      signature: 'wKc50fiS6KYC+BI/CXhcT1XG8QY=', // Signature computed in the backend.
+                    }
+                }
+            
+	        })
+		}
+		$('#status_551e95946e6f641366000000').hide();
+        
+        $('#content_block_551e95946e6f641366000000').click(function(event){
+            event.preventDefault();
+            $('#edit_551e95946e6f641366000000').editable("save");
+        });
+      });
+  </script>
+</section>    
+<!-- typeG CONTENT BLOCK END -->
