@@ -99,11 +99,16 @@
  }
  
  .description-G{
-    max-width:288px;      
+    max-width:288px;    
+    height:600px;
     text-align:center;    
     margin:11px;    
     vertical-align:middle;    
     float:left;
+ }
+ 
+ .description-G p{
+     vertical-align:middle;
  }
  
 </style>
