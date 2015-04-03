@@ -89,7 +89,7 @@
   
   .container-G{
       margin:0 auto;
-      max-width:683px;
+      max-width:693px;
       vertical-align:middle;
   }
  .style-G{
