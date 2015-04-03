@@ -101,10 +101,8 @@
  .description-G{
     display:inline-block;
     max-width:288px;    
-    height:600px;
     text-align:center;    
     margin:11px;    
-    
  }
  
  .description-G p{
