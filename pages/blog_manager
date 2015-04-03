@@ -103,6 +103,8 @@
     max-width:288px;    
     text-align:center;    
     margin:11px;    
+    float:left;
+    margin-top:250px;
  }
  
  .description-G p{
