@@ -87,7 +87,9 @@
     padding: 1em; 
   }
   
-  
+  .container-G{
+      margin:0 auto;
+  }
  .style-G{
     max-width: 394px;
     padding-left:11px; 
