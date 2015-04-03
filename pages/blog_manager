@@ -91,7 +91,6 @@
  .style-G{
     max-width: 394px;
     padding-left:11px; 
-    padding-right:11px;   
     vertical-align:top;    
     float:left;
  }
