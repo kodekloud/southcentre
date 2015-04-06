@@ -430,7 +430,7 @@ margin:-10px 0 0 -21px;
     text-align:center;    
     margin:11px;    
     float:left;
-    margin-top:250px !important;
+    margin-top:250px;
  }
  
  .description-G p{
@@ -442,11 +442,6 @@ margin:-10px 0 0 -21px;
      margin:0 auto;
  }
 
-
-#look_book div{
-    
-    margin-top:64px;
-}
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
         .mobile-side{
