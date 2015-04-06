@@ -244,12 +244,13 @@ margin-top:0px;
 .image-C, .description-C{
   margin:0 auto;
   margin:11px;
-  margin-top:64px;
+
 }
+
 .image-C img{
     width:100%;
-    margin-top:11px;
     margin-bottom:11px;
+      margin-top:64px;
 }
 .style-D img{
     width:100%;
