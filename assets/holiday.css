@@ -448,7 +448,7 @@ margin:-10px 0 0 -21px;
      max-width:908px;
      margin:0 auto;
      margin-top:64px;
-     float:left;
+     display:inline-block;
  }
 
 
