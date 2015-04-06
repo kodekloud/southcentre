@@ -413,6 +413,37 @@ margin:-10px 0 0 -21px;
             margin-left:0px !important;
             margin-right:0px !important;
         }
+        
+  .container-G{
+      margin:0 auto;
+      max-width:693px;
+      vertical-align:middle;
+  }
+ .style-G{
+    display:inline-block;
+    max-width: 394px;
+    padding-left:11px; 
+ }
+ 
+ .description-G{
+    display:inline-block;
+    max-width:288px;    
+    text-align:center;    
+    margin:11px;    
+    float:left;
+    margin-top:250px;
+ }
+ 
+ .description-G p{
+     vertical-align:middle;
+ }
+ 
+ .style-H{
+     max-width:908px;
+     margin:0 auto;
+ }
+
+
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
         .mobile-side{
             padding-left:17px !important;
