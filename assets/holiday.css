@@ -430,7 +430,7 @@ margin:-10px 0 0 -21px;
     text-align:center;    
     margin:11px;    
     float:left;
-    margin-top:250px;
+    margin-top:250px !important;
  }
  
  .description-G p{
