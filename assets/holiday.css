@@ -209,9 +209,6 @@ margin-top:0px;
    margin-right:15px;
     
 }
-.description-image{    
-    margin-top:12px;
-}
  .store-gg{
     font-family: ChronicleDisplay-Italic-Bold;
     
@@ -240,6 +237,10 @@ margin-top:0px;
     vertical-align:top;    
     float:left;
     position:relative;
+  }
+  
+  .style-E img{
+      margin-bottom: 12px;
   }
 .image-C, .description-C{
   margin:0 auto;
