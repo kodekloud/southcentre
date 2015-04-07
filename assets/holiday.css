@@ -419,7 +419,7 @@ margin:-10px 0 0 -21px;
      }
      .desktop-show{
          
-         display: inline-block !important;
+         display: block !important;
      }
    .mobile-show{
             display:none !important;
