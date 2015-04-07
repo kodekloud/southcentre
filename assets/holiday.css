@@ -479,7 +479,7 @@ margin:-10px 0 0 -21px;
             padding-right:0px !important;
         }
         .mobile-show{
-            display:inline !important;
+            display:inline-block !important;
         }
         .desktop-show{
             display:none !important;
