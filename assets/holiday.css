@@ -482,7 +482,7 @@ margin:-10px 0 0 -21px;
             display:inline !important;
         }
         .desktop-show{
-            display:none;
+            display:none !important;
         }
             .look-book h1{
             text-align:center;
