@@ -12,6 +12,12 @@ h1 .current_item {
     color: black;
     
 }
+.look-book-head{
+      font-family: ChronicleDisplay-Italic;
+  font-size: 3.0em;
+  letter-spacing: 1px;
+}
+
 .holiday-gift-guide h2{
  max-width:850px;   
  margin-bottom:0px;
