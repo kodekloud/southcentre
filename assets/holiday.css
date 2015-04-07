@@ -422,7 +422,7 @@ margin:-10px 0 0 -21px;
          display: inline-block;
      }
    .mobile-show{
-            display:none;
+            display:none !important;
         }
         .mobile-side{
             margin-left:0px !important;
