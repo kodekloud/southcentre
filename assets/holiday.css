@@ -481,6 +481,9 @@ margin:-10px 0 0 -21px;
         .mobile-show{
             display:inline !important;
         }
+        .desktop-show{
+            display:none;
+        }
             .look-book h1{
             text-align:center;
             font-size:2.0em;
