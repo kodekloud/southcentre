@@ -226,6 +226,7 @@ margin-top:0px;
     text-align:center;    
     margin-left:11px; 
     margin-right:11px;   
+    margin-bottom:11px;
     margin-top:64px;
     vertical-align:top;    
     float:left;
@@ -237,6 +238,7 @@ margin-top:0px;
           text-align:center;    
     margin-left:11px; 
     margin-right:11px;   
+    margin-bottom:11px;
     margin-top:64px;
     vertical-align:top;    
     float:left;
@@ -249,7 +251,6 @@ margin-top:0px;
 .image-C, .description-C{
   margin:0 auto;
   margin:11px;
-  margin-bottom: 0px;
 
 }
 
