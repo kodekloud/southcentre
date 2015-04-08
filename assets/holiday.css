@@ -226,7 +226,8 @@ margin-top:0px;
     text-align:center;    
     margin-left:11px; 
     margin-right:11px;   
-    margin-bottom:64px;
+    margin-bottom:11px;
+    margin-top:64px;
     vertical-align:top;    
     float:left;
     position:relative;
@@ -237,7 +238,8 @@ margin-top:0px;
           text-align:center;    
     margin-left:11px; 
     margin-right:11px;   
-    margin-bottom:64px;
+    margin-bottom:11px;
+    margin-top:64px;
     vertical-align:top;    
     float:left;
     position:relative;
@@ -254,8 +256,8 @@ margin-top:0px;
 
 .image-C img{
     width:100%;
-   
-      margin-bottom:64px;
+    margin-bottom:11px;
+      margin-top:64px;
 }
 .style-D img{
     width:100%;
@@ -274,7 +276,7 @@ margin-top:0px;
 max-width:288px; 
 height:378px;
 margin: 11px;
-
+margin-top:64px;
 float:left;
 text-align:center;
 padding-top:25px;
@@ -432,7 +434,7 @@ margin:-10px 0 0 -21px;
       margin:0 auto;
       max-width:720px;
       vertical-align:middle;
-      margin-bottom:64px;
+      margin-top:64px;
       display:block;
   }
  .style-G{
@@ -456,7 +458,7 @@ margin:-10px 0 0 -21px;
  .style-H{
      max-width:930px;
      margin:0 auto;
-     margin-bottom:64px;
+     margin-top:64px;
      display:inline-block;
  }
 
