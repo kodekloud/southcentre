@@ -473,6 +473,11 @@ margin:-10px 0 0 -21px;
         }
 }
     @media only screen and (max-width: 40em) {
+        
+         .style-G{
+
+    padding-left:0px; 
+ }
             .mobile-side{
             margin-left:17px !important;
             margin-right:17px !important;
