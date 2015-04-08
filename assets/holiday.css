@@ -435,7 +435,7 @@ margin:-10px 0 0 -21px;
       max-width:720px;
       vertical-align:middle;
       margin-top:64px;
-      display:block;
+      float:left;
   }
  .style-G{
     display:inline-block;
@@ -449,6 +449,7 @@ margin:-10px 0 0 -21px;
     text-align:center;    
     margin:11px;    
     padding-top:183px;
+    margin-left:105;
  }
  
  .description-G p{
