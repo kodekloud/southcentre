@@ -254,8 +254,8 @@ margin-top:0px;
 
 .image-C img{
     width:100%;
-    margin-bottom:11px;
-      margin-top:64px;
+   
+      margin-bottom:64px;
 }
 .style-D img{
     width:100%;
@@ -274,7 +274,7 @@ margin-top:0px;
 max-width:288px; 
 height:378px;
 margin: 11px;
-margin-top:64px;
+margin-bottom:64px;
 float:left;
 text-align:center;
 padding-top:25px;
