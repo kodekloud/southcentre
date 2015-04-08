@@ -238,7 +238,7 @@ margin-top:0px;
           text-align:center;    
     margin-left:11px; 
     margin-right:11px;   
-    margin-bottom:11px;
+    margin-bottom:0px;
     margin-top:64px;
     vertical-align:top;    
     float:left;
@@ -561,6 +561,7 @@ margin:-10px 0 0 -21px;
             text-align:center;
             float:none !important;
             margin-top:25px;
+            
         }
         .description-C{
         text-align:center;
