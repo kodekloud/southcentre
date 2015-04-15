@@ -483,6 +483,10 @@ margin:-10px 0 0 -21px;
   margin-left: 0px !important;
 }
 
+.flex-direction-nav a {
+  background: none !importatnt;
+}
+
 .footer{
     
     margin-top:100px;
