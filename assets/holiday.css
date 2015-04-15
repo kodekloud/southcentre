@@ -462,7 +462,9 @@ margin:-10px 0 0 -21px;
      margin-top:64px;
      display:inline-block;
  }
-
+.style-H img{
+    width:930px;
+}
 .footer{
     
     margin-top:100px;
