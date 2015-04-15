@@ -468,6 +468,12 @@ margin:-10px 0 0 -21px;
 .flexslider{
     width: 100%;
 }
+
+.flex-direction-nav .flex-next {
+  top: 50%;
+  width: 50px;
+  margin-right: 0px !important;
+}
 .footer{
     
     margin-top:100px;
