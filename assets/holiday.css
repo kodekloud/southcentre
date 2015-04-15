@@ -421,7 +421,7 @@ margin:-10px 0 0 -21px;
      }
      .desktop-show{
          
-         display: block !important;
+         display: inline-block !important;
      }
    .mobile-show{
             display:none !important;
