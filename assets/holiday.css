@@ -474,6 +474,13 @@ margin:-10px 0 0 -21px;
   width: 50px;
   margin-right: 0px !important;
 }
+
+.flex-direction-nav .flex-prev {
+  top: 50%;
+  width: 50px;
+  margin-left: 0px !important;
+}
+
 .footer{
     
     margin-top:100px;
