@@ -472,8 +472,9 @@ margin:-10px 0 0 -21px;
 }
         .style-slider{
             
-            width:100%;
+            
             margin:0 auto;
+            margin-top:64px;
         }
 .flex-direction-nav .flex-next {
   top: 50%;
