@@ -591,16 +591,15 @@ margin:-10px 0 0 -21px;
             
         }
         .style-H{
-            text-align:center;
-            width:288px;
-      
+            width:388px;
+            padding-left:45px;
+            padding-right:45px;
             margin-top:0px;
             float: left;
+            margin:0 auto;
         }
         
         .style-H img{
-         
-            margin-left:33px;
             margin-top:45px;
             margin-bottom:45px;
         }
