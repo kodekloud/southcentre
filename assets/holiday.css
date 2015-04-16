@@ -470,7 +470,11 @@ margin:-10px 0 0 -21px;
 .flexslider{
     width: 100%;
 }
-
+        .style-slider{
+            
+            width:100%;
+            margin:0 auto;
+        }
 .flex-direction-nav .flex-next {
   top: 50%;
   width: 50px;
@@ -602,10 +606,7 @@ margin:-10px 0 0 -21px;
             width:288px;
             margin:0 auto;
         }
-        .style-slider img{
- 
-            
-        }
+
         
         .style-H img{
             margin-top:45px;
